@@ -17,7 +17,7 @@ nav:
 - License: license
 ---
 
-# RoboDock BlueROV(Blue Robotics Product) 技術文件
+# Blue Robotics Product 技術文件
 
 這裏是我們的產品線上文件庫，在這裡可以找到 BlueROV2 與其他附屬產品的各項操作說明與教學。
 
