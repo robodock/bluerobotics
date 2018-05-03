@@ -17,15 +17,15 @@ nav:
 - License: license
 ---
 
-# Blue Robotics Documentation
+# RoboDock BlueROV(Blue Robotics Product) 技術文件
 
-This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the BlueROV2 and our other products.
+這裏是我們的產品線上文件庫，在這裡可以找到 BlueROV2 與其他附屬產品的各項操作說明與教學。
 
-We do our best to make this documentation as complete as possible but you can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
+我們盡力將文件做到完善，也歡迎您[新增、勘誤或提出建議](#how-to-contribute)共同來協助改善文件。
 
-You can use the menu bar at the top to find the product you are looking for and the navigation bar on the left to help you find what you are looking for on each page.
+您可以使用頁面最上方的功能表來尋找分類，並用左方的選單來找到文件中的章節段落。
 
-# Product Manuals
+# 產品使用手冊
 
 ## ROV
 
@@ -52,7 +52,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div> 
 
-## Thrusters and Motors
+## Thrusters and Motors (推進器與馬達)
 
 <div class="row">
   <div class="col-sm-4 col-md-4"> 
@@ -77,7 +77,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>  
 
-## Electronics
+## Electronics (電控相關設備)
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -137,7 +137,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div> 
 
-## Sensors
+## Sensors (感測器)
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -172,7 +172,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-## Enclosures
+## Enclosures (水密容器)
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -202,7 +202,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-## Other  
+## Other (其他)
 <div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
@@ -216,7 +216,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div> 
 
-# Tutorials
+# 教學
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -253,7 +253,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-# Guides
+# 指南
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -263,26 +263,25 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-# How to Contribute
+# 如何協助
 
 Want to help us improve our documentation? There are several way to help out.
+想要幫助我們改善文件?可以利用下列幾種方法。
 
-This page is hosted by and version-controlled through Github.com. Check out the repository here: [github.com/bluerobotics/bluerobotics.github.io](http://github.com/bluerobotics/bluerobotics.github.io).
+本文件站台架設於 Github.com 做為版本管控，連結如下：
+[github.com/robodock/bluerov](http://github.com/robodock/bluerov)
 
-* **Issues.** You can submit issues like errors, missing content, etc. via Github's issue reporting tools
+* **Issues.** 您可以透過 Github 頁面上的工具提交內容勘誤。
 
-* **Contribution.** If you are interested in writing larger sections of documentation including new pages, tutorials, etc. you should make a [fork](https://github.com/bluerobotics/bluerobotics.github.io) of this repository, write your content, and then ask us to [pull](https://github.com/bluerobotics/bluerobotics.github.io/pulls) that content into the main repository.
+* **Contribution.** 如果您想撰寫長篇的教學文件，最好的方式是自行 [fork](https://github.com/robodock/bluerov) 一份, 在自己的儲存庫版本上撰寫編輯，完成後在提出 [pull](https://github.com/robodock/bluerov/pulls) 請求，我們會盡快將內容加入主文件中。
 
-[Here is an example page](/example/) showing what formatting is possible using the Markdown text format.
+[文件頁面範本](/example/) 展現哪些 Markdown 語法是可接受的。
 
-[Here is a short tutorial](/jekyll-tutorial/) showing how to edit the documentation locally and push changes to your fork.
+[簡短教學](/jekyll-tutorial/) 說明如何在本地端編輯文件與提交修改。
 
-**The current build status of the documentation is:**
-
-[![Build Status](https://travis-ci.org/bluerobotics/bluerobotics.github.io.svg?branch=master)](https://travis-ci.org/bluerobotics/bluerobotics.github.io)
 
 # License
 
 [<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />](http://creativecommons.org/licenses/by-sa/4.0/)
 
-The Blue Robotics Documentation is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+本網頁採用 [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) 授權方式 
