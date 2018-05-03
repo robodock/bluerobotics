@@ -4,16 +4,16 @@ title: Documentation
 order: 0
 nav:
 - Home: blue-robotics-documentation
-- Product Manuals: product-manuals
+- 產品使用手冊: product-manuals
 - - ROV: rov
-- - Thrusters and Motors: thrusters-and-motors
-- - Electronics: electronics
-- - Sensors: sensors
-- - Enclosures: enclosures
-- - Other: other
-- Tutorials: tutorials
-- Guides: guides
-- How to Contribute: how-to-contribute
+- - Thrusters and Motors (推進器與馬達): thrusters-and-motors
+- - Electronics (電控相關設備): electronics
+- - Sensors (感測器): sensors
+- - Enclosures (水密容器): enclosures
+- - Other (其他): other
+- 教學: tutorials
+- 指南: guides
+- 如何協助: how-to-contribute
 - License: license
 ---
 
