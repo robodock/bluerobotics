@@ -5,13 +5,13 @@ permalink: /brov2/
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: introduction
-- - Features: features
-- - What's Included: whats-included
-- - What's Not Included: whats-not-included
-- - Resources
-- Specifications: specifications
-- - Physical: physical
+- 簡介: 簡介
+- - 特性: 特性
+- - 產品包裝內容: 產品包裝內容
+- - 您還需要這些: 您還需要這些
+- - 相關資源: 相關資源
+- 產品規格: 產品規格
+- - 尺寸材質: 尺寸材質
 - - Performance: performance
 - - Battery: battery
 - - Lights: lights
@@ -35,66 +35,65 @@ manual-links:
 
 <img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# 簡介
 
-The _BlueROV2_ is the world's most affordable high-performance ROV. The 6-thruster vectored configuration, coupled with strong static stability, provides a vehicle that is smooth and stable, yet highly maneuverable. The _BlueROV2_ provides the capabilities of a 
-high-end commercial mini-ROV at the price of the most basic commercial ROVs.
+_BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設置，提供了強力的穩定能力，提供載具平順穩定性，同時又具有高度操控性。_BlueROV2_ 以基本消費級 ROV 的價格，提供如同高階商用觀測級 ROV 的能力。
 
 <a href="http://bluerobotics.com/downloads/bluerov2.pdf" alt="BlueROV2 Datasheet"><i class="fa fa-download" aria-hidden="true"></i> Download Datasheet</a>
 
-## Features
+## 特性
 
-- Live 1080p HD video
-- Highly maneuverable vectored thruster configuration
-- Stable and optimized for inspection- and research-class missions
-- Easy to use, cross-platform user interface
-- Highly expandable with three free cable penetrators
-- Standard 100m depth rating and up to 300m tether available
-- 6 T200 Thrusters and Basic ESCs for the best thrust-to-weight ratio in its class
-- Battery powered with quick-swappable batteries for long missions
+- 即時 1080p HD 高畫質影像
+- 高度操控性向量推進器組態
+- 穩定且為檢查級與研究級 ROV 任務最佳化
+- 易於使用，跨平台使用者介面軟體(支援 Windows, Mac, Linux)
+- 3組冗餘配線穿孔，具高度擴充性
+- 標準 100m 工作深度與 300m 連接纜線長度範圍
+- 6組 T200 推進馬達與電子調速器，提供同級產品中最佳之推力重量比
+- 鋰聚合物電池供電，可快速拆裝交換
 
-## What's Included
+## 產品包裝內容
 
-The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 1.5-3 hours to operation depending on experience.
+產品送達包裝中包含已預組套件，組裝時間約在 1.5~3 小時間，依操作經驗而定。
 
-Here is the [Bill of Materials](/brov2/assembly/#whats-included) for the _BlueROV2_ kit.
+[零件清單](/brov2/assembly/#whats-included) 在此。
 
-## What's Not Included
+## 您還需要這些
 
-There are some items necessary for operation that are not included with the kit. 
+另外有些操作必要組件，並未包含在套件中：
 
- - A gamepad controller. We recommend [this XBox One Controller](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
- - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
+ - 遊戲控制器. 我們推薦使用 [XBox One 遊戲控制器](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) 或是 [Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - 一台筆電或是 Windows 10 平板電腦。控制軟體 QGroundControl 具有 Mac, Windows 10, 與 Linux 版本。
+ - 鋰聚合物電池。 我們推薦 [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) 或者 2 或 3 個 [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - 鋰電池平衡充電器, 例如這款 [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
 
-## Resources
+## 相關資源
 
- - [Assembly Instructions](/brov2/assembly/)
- - [Bill of Materials](/brov2/assembly/#whats-included)
- - [Initial Software Setup](/brov2/software-setup)
- - [Operating Manual](/brov2/operation)
+ - [組裝說明](/brov2/assembly/)
+ - [材料清單](/brov2/assembly/#whats-included)
+ - [初始軟體設定](/brov2/software-setup)
+ - [操作手冊](/brov2/operation)
 
-# Specifications
+# 產品規格
 
-## Physical 
+## 尺寸材質 
 
-| Length                                 | 457 mm                     | 18 in                      |
-| Width                                  | 338 mm                     | 13.3 in                    |
-| Height                                 | 254 mm                     | 10 in                      |
-| Weight in Air (with Ballast)           | 10-11 kg                   | 22-24 lb                   |
-| Weight in Air (without Ballast)        | 9-10 kg                    | 20-22 lb                   |
-| Net Buoyancy (with Ballast)            | 0.2 kg                     | 0.5 lb                     |
-| Net Buoyancy (without Ballast)         | 1.4 kg                     | 3 lb                	   |
-| Watertight Enclosure Inner Diameter    | 102 mm                     | 4.0 in                     |
-| Watertight Enclosure Inner Length      | 298 mm                     | 11.75 in                   |
-| Cable Penetrator Holes                 | 14 x 10mm                  | 14 x 0.4 in                |
-| Construction                           | HDPE frame, aluminum flanges/end cap, and acrylic tubes |
-| Main Tube (Electronics Enclosure)      | [Blue Robotics 4 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-4-series)        |
-| Battery Tube                           | [Blue Robotics 3 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-3-series)        |
-| Buoyancy Foam                          | [R-3318 Urethane Foam](https://www.bluerobotics.com/store/parts/float-r1/) rated to 210 meters                |
-| Ballast Weight                         | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
-| Battery Connector						 | XT90                                                    |
+| 長         | 457 mm           | 18 in          |
+| 寬         | 338 mm           | 13.3 in        |
+| 高         | 254 mm           | 10 in          |
+| 陸上重量 (含配重鉛塊)         | 10-11 kg       | 22-24 lb        |
+| 陸上重量 (不含配重鉛塊)       | 9-10 kg        | 20-22 lb        |
+| 淨浮力 (含配重鉛塊)           | 0.2 kg         | 0.5 lb          |
+| 淨浮力 (不含配重鉛塊)         | 1.4 kg         | 3 lb       	   |
+| 水密管內徑    | 102 mm        | 4.0 in         |
+| 水密管內長度  | 298 mm        | 11.75 in       |
+| 纜線穿孔      | 14 x 10mm     | 14 x 0.4 in    |
+| 材質      | HDPE 框架, 鋁製蓋板, 壓克力圓管 |
+| 主容器管 (電子控制器)      | [Blue Robotics 4 吋管系列/鋁蓋板](http://docs.bluerobotics.com/watertight-enclosures/#specifications-4-series)        |
+| 電池容器管                 | [Blue Robotics 3 吋管系列/鋁蓋板](http://docs.bluerobotics.com/watertight-enclosures/#specifications-3-series)        |
+| 浮力發泡橡膠               | [R-3318 聚氨脂發泡橡膠](https://www.bluerobotics.com/store/parts/float-r1/) rated to 210 meters                |
+| 配重鉛塊            | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
+| 電池連接頭		  | XT90                       |
 
 ## Performance 
 

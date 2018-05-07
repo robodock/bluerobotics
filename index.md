@@ -3,25 +3,27 @@ layout: default
 title: Documentation
 order: 0
 nav:
-- Home: blue-robotics-documentation
-- 產品使用手冊: product-manuals
-- - ROV: rov
-- - Thrusters and Motors (推進器與馬達): thrusters-and-motors
-- - Electronics (電控相關設備): electronics
-- - Sensors (感測器): sensors
-- - Enclosures (水密容器): enclosures
-- - Other (其他): other
-- 教學: tutorials
-- 指南: guides
-- 如何協助: how-to-contribute
-- License: license
+- Home: Blue Robotics Product 技術文件
+- 產品使用手冊: 產品使用手冊
+- - ROV: ROV
+- - Thrusters and Motors (推進器與馬達): Thrusters and Motors (推進器與馬達)
+- - Electronics (電控相關設備): Electronics (電控相關設備)
+- - Sensors (感測器): Sensors (感測器)
+- - Enclosures (水密容器): Enclosures (水密容器)
+- - Other (其他): Other (其他)
+- 教學: 教學
+- 指南: 指南
+- 如何協助: 如何協助
+- License: License
 ---
 
 # Blue Robotics Product 技術文件
 
-這裏是我們的產品線上文件庫，在這裡可以找到 BlueROV2 與其他附屬產品的各項操作說明與教學。
+這裏是 Blue Robotics 的產品線上文件庫，在這裡可以找到 BlueROV2 與其他附屬產品的各項操作說明與教學。
 
 我們盡力將文件做到完善，也歡迎您[新增、勘誤或提出建議](#how-to-contribute)共同來協助改善文件。
+
+本文件中文化由 RoboDock 維護，文件庫網址 [http://bluerov.robodock.net](http://bluerov.robodock.net)
 
 您可以使用頁面最上方的功能表來尋找分類，並用左方的選單來找到文件中的章節段落。
 
