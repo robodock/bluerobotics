@@ -19,9 +19,9 @@ nav:
 - - 感測器: 感測器
 - - 鏡頭俯仰: 鏡頭俯仰
 - - 鏡頭: 鏡頭
-- 3D 模型: 3D 模型
+- 3D模型: 3D模型
 - 使用手冊: 使用手冊
-- 勘誤報告: 勘誤報告
+- 勘誤回報: 勘誤回報
 
 store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -149,7 +149,7 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 ## 鏡頭
 
 | 視野 (水下) | 110 degrees (水平)  |                                                      
-| 光線敏感度  | 0.01[lux](https://en.wikipedia.org/wiki/Lux#Illuminance)  |
+| 光線敏感度  | 0.01 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)  |
 | 解析度     | 1080p       |
 
 ## 控制系統
@@ -166,7 +166,7 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 
 1. 組裝：請前往查看我們的 [組裝手冊](/brov2/assembly) , 了解詳細的組裝步驟.
 
-2. 軟體設定：如果您的BlueROV2是 ** October 24, 2016 之後的版本 **, 請使用 [Software Setup Manual](/brov2/software-setup/) 來設定操作電腦端程式. 如果是 ** October 24, 2016 之前的版本 ** 請直接參考 [ArduSub Documentation](http://ardusub.com/introduction/#overview).
+2. 軟體設定：如果您的BlueROV2是 **October 24, 2016 之後的版本**, 請使用 [Software Setup Manual](/brov2/software-setup/) 來設定操作電腦端程式. 如果是 **October 24, 2016 之前的版本** 請直接參考 [ArduSub Documentation](http://ardusub.com/introduction/#overview).
 
 3. 操作：詳細內容請參考 [_BlueROV2_ 操作手冊](/brov2/operation).
 

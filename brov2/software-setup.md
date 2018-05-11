@@ -102,9 +102,9 @@ function showBlacklistElements(os) {
 
 # Software Introduction
 
-These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software.
+要開始使用 BlueROV2 前，需要一部用來連接 BlueROV2 的電腦，並安裝相關軟體。如果您還沒完成 BlueROV2 的組裝，請參考 [Assembly Manual](/brov2/assembly/) 先完成 BlueROV2 組裝.
 
-Select your operating system below to begin the installation and network configuration:
+請選擇您電腦使用的作業系統查看對應的步驟說明：
 
 <a class="btn btn-default" href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements(''); }">Windows</a>
 <a class="btn btn-default" href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-1'); }">Mac</a>
@@ -112,163 +112,165 @@ Select your operating system below to begin the installation and network configu
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
-# Install QGroundControl
+# 安裝 QGroundControl
 
-To connect your computer to the BlueROV2, you need to download and install QGroundControl:
+QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 BlueROV2，可在此下載後進行安裝:
 
 - [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
 
-# Network Setup
+# 網路環境設定
 
-If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
+您的電腦需要有乙太網路連接埠，如果您的筆電沒有，您可能會需要這種 [USB to Ethernet 轉接器](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
-**Network Settings**
+**網路組態**
 
-1. Go to _Control Panel_ > _Network and Sharing Center_ and then choose "Change adapter settings".
+1. 前往 _控制台_ > _網路和共用中心_ 然後選取"變更介面卡設定".
 
 	<img src="/brov2/cad/network-and-sharing-center-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-2. Right click on the Ethernet adapter, then choose _Properties_.
+2. 右鍵選取網路介面卡, 選擇 _內容_.
 
 	<img src="/brov2/cad/network-connections-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-3. In the properties dialog, choose _Internet Protocol Version 4 (TCP/IPv4)_, then click _Properties_.
+3. 在內容對話框中, 選取 _Internet Protocol Version 4 (TCP/IPv4)_, 然後選取 _內容_.
 
 	<img src="/brov2/cad/internet-protocol-version-4-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-4. Select "Use the following IP address" And enter 192.168.2.1 for the IP address and 255.255.255.0 for the Subnet mask. Then select OK.
+4. 選取 "使用下列 IP 位址"，在 IP 位址欄中輸入 192.168.2.1 , 子網路遮罩為 255.255.255.0 ，完成後按下確定.
 
 	<img src="/brov2/cad/static-ip-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-**Firewall**
+**防火牆**
 
-1. Go to _Control Panel_ > _Windows Firewall_ and then select "Allow an app or feature through Windows Firewall".
+1. 前往 _控制台_ > _Windows 防火牆_ 然後選擇 "允許程式或功能通過 Windows 防火牆".
 
-2. Select "Change Settings" and then select "Open source ground control app provided by QGroundControl dev team" or "QGroundControl".
+2. 選取 "變更設定" 然後勾選 "Open source ground control app provided by QGroundControl dev team" or "QGroundControl".
 
 	<img src="/brov2/cad/windows-firewall-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Joystick Setup
+# 控制器設定
 
-**XBox 360 Controller** 
+**XBox 360 控制器** 
 
-- Plug and Play
+- Plug and Play 隨插即用
 
-**XBox One Controller** 
+**XBox One 控制器** 
 
-- Wired: Plug and Play 
-- Wireless: 
-	1. Plug in [Microsoft XBox Wireless Adapter for Windows](https://www.amazon.com/Microsoft-Xbox-Wireless-Adapter-Windows-one/dp/B00ZB7W4QU).
-	2. Turn on the controller, then press the Wireless Enrollment button on the top of the controller and on the wireless adapter.
+- 有線款: 隨插即用 
+- 無線款: 
+	1. 須接上 [Microsoft XBox Wireless Adapter for Windows](https://www.amazon.com/Microsoft-Xbox-Wireless-Adapter-Windows-one/dp/B00ZB7W4QU).
+	2. 打開控制器, 然後按下控制器頂端的無線配對按鍵.
 
-**Logitech GamePad (F710 and F310)**
+**羅技控制器 (F710 and F310)**
 
-Logitech controllers should have the switch on the back set to "X".
+請將羅技控制器後方的選擇開關切至 "X" 位置.
 </div>
 
 <div id="macDiv" class="collapse" markdown="1">
 
-# Install QGroundControl
+# 安裝 QGroundControl
 
-To connect your computer to the BlueROV2, you need to download and install QGroundControl:
+QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 BlueROV2，Mac 版可在此下載後進行安裝:
 
 - [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
 
-# Network Setup
+# 網路環境設定
 
-If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
+您的電腦需要有乙太網路連接埠，如果您的筆電沒有，您可能會需要這種 [USB to Ethernet 轉接器](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
-**Network Settings**
+**網路組態**
 
-1. Go to _System Preferences_ > _Network_
+1. 前往 _System Preferences_ > _Network_
 
-2. If your computer has an Ethernet port, select Ethernet from the options on the left side. If you had to get a USB to Ethernet adapter, plug it in now then select it.
+2. 如果您的 Mac 電腦具有網路埠, 請選取左方選項中的 Ethernet. 如果你用的是 USB 網路連接器, 請接上並選取它.
 
-3. Select the dropdown next to "Configure IPv4" and then select "Manually"
+3. 選擇 "Configure IPv4" 旁的下拉選單然後選擇 "Manually"
 
-4. Enter 192.168.2.1 for the IP Address and 255.255.255.0 for the Subnet Mask and then select apply.
+4. IP Address 請輸入 192.168.2.1 ，子網路遮罩為 255.255.255.0 ，完成後選取 apply.
 
 	<img src="/brov2/cad/mac-network-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Joystick Setup
+# 控制器設定
 
-**XBox 360 Controller**
+**XBox 360 控制器**
 
-1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.5/360ControllerInstall_0.16.5.dmg). For more information on this driver, see the [Readme.](https://github.com/360Controller/360Controller#about)
-2. Install the XBox 360 controller driver.
-2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
-3. Turn on the XBox 360 Controller.
+1. 下載 [驅動程式](https://github.com/360Controller/360Controller/releases/download/v0.16.5/360ControllerInstall_0.16.5.dmg). 有關驅動程式的詳細資料，請看 [Readme.](https://github.com/360Controller/360Controller#about)
+2. 安裝 XBox 360 控制器驅動程式.
+2. 接上 Windows XBox 360 無線接收器.
+3. 打開 XBox 360 控制器.
 
-**XBox One Controller**
-There is currently no support for wireless use.
+**XBox One 控制器**
+目前尚不支援無線款.
 
-1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.5/360ControllerInstall_0.16.5.dmg). For more information on this driver, see the [Readme.](https://github.com/360Controller/360Controller#about)
-2. Install the XBox 360 controller driver.
-2. Plug in the XBox One Controller directly to the computer using a micro USB cable.
-3. Turn on the XBox One Controller.
+1. 下載 [驅動程式](https://github.com/360Controller/360Controller/releases/download/v0.16.5/360ControllerInstall_0.16.5.dmg). 有關驅動程式詳細資料，請看 [Readme.](https://github.com/360Controller/360Controller#about)
+2. 安裝 XBox 360 控制器驅動程式.
+2. 使用 micro USB 線連接 XBox One 控制器到電腦.
+3. 打開 XBox One 控制器.
 
-**Logitech GamePad (F710 and F310)**
+**羅技控制器 (F710 and F310)**
 
-Logitech controllers should have the switch on the back set to "X"
+請將羅技控制器後方的選擇開關切至 "X" 位置.
 </div>
 
 <div id="linuxDiv" class="collapse" markdown="1">
 
-# Install QGroundControl
+# 安裝 QGroundControl
 
-To connect your computer to the BlueROV2, you need to download and install QGroundControl:
+QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 BlueROV2，Linux 版可在此下載後進行安裝:
 
 - [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
 
-# Network Setup
+# 網路環境設定
 
-If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
+您的電腦需要有乙太網路連接埠，如果您的筆電沒有，您可能會需要這種 [USB to Ethernet 轉接器](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
-**Network Settings**
+**網路組態**
 
-1. Click the Network Icon in the toolbar at the top of the screen, and click "Edit Connections..."
+以下說明以 Ubuntu 環境為例，其他 Linux 版本圖形介面略有不同，請自行類推.
+
+1. 選取上方工具列的網路圖示, 選取 "Edit Connections..." 編輯連線
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep1.png" class="img-responsive img-center" style="max-width:800px" />
 
-2. Click "Add"
+2. 點選 "Add" 新增
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep2.png" class="img-responsive img-center" style="max-width:800px" />
 
-3. Select "Ethernet" for the connection type and click "Create..."
+3. 選擇 "Ethernet" 連接形式，點選 "Create..." 建立
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep3.png" class="img-responsive img-center" style="max-width:800px" />
 
-4. From the "Device MAC Address" dropdown, select the ethernet interface you want to use. If you are using the built in ethernet card on your computer, there will be only one choice. If you are using a USB to Ethernet adapter, find out which interface corresponds to the adapter by looking at the options before and after plugging the adapter into the computer.
+4. 從 "Device MAC Address" 下拉選單, 選擇您使用的 ethernet 介面. 如果使用的是電腦主機內建的網路卡，則只有一個選項。如果使用的是 USB 網路卡，則可以比對接上前與接上後出現的選項，找出對應的網卡.
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep4.png" class="img-responsive img-center" style="max-width:800px" />
 
-5. Click the "IPv4 Settings" tab, and from the "Method" dropdown menu, select "Manual". Click "Add", and enter 192.168.2.1 for the Address, 255.255.255.0 for the Netmask and 0.0.0.0 for the Gateway. Click "Save..." to complete the setup.
+5. 點擊 "IPv4 Settings" 頁面, 從 "Method" 下拉選單中, 選取 "Manual". 點擊 "Add", IP 位址輸入 192.168.2.1，網路遮罩 255.255.255.0 ，閘道 0.0.0.0 完成後按下 "Save..." 儲存設定.
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep5.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Joystick Setup
+# 控制器設定
 
-All required drivers for wired Xbox 360 controllers and Logitech F310 controllers come pre-loaded on Ubuntu 14.04 and 16.04, no setup necessary!
+有線款的 Xbox 360 控制器與羅技控制器，相關驅動程式都已內建在 Ubuntu 14.04 與 Ubuntu 16.04 版本中，隨插即用!
 
-**Logitech GamePad (F710 and F310)**
+**羅技控制器 (F710 and F310)**
 
-Logitech controllers should have the switch on the back set to "X"
+請將羅技控制器後方的選擇開關切至 "X" 位置.
 </div>
 <div id="commonDiv" class="collapse" markdown="1">
 
-# Joystick/Gamepad Calibration
+# 控制器/搖桿校正
 
-Some joysticks require calibration before you can enable them for use with QGroundControl. If your joystick requires calibration, the *Joystick* tab on the *Vehicle Settings* page will be red, and you should follow these steps to calibrate your joystick. If your joystick does not require calibration, the *Joystick* tab will not be red, and you can skip this step!
+某些控制器/搖桿可能需要校正後才能使用. 如果 QGroundControl 軟體的 *Vehicle Settings* 頁面上的 *Joystick* 頁面呈現紅色，表示控制器/搖桿需要校正，請依照下列步驟進行校正，如果不需校正，則可省略下列步驟!
 
-1. Go to the *Vehicle Settings* page in QGroundControl, then click on the red *Joystick* tab in the sidebar on the left.
+1. 前往 QGroundControl 軟體的 *Vehicle Settings* 頁面, 點擊在左方邊欄呈現紅色的 *Joystick* 頁面.
 
-2. Ensure the 'TX Mode' selection is set to 3.
+2. 確定 'TX Mode' 選項設定在 3.
 
-3. Click "Calibrate", then click "Next".
+3. 點擊 "Calibrate", 然後按下 "Next".
  
-4. Follow the step-by-step instructions, move the sticks as indicated in the diagram in QGroundControl.
+4. 跟隨 step-by-step 的步驟, 依照畫面指示移動搖桿.
 
-When completed, the *Joystick* tab will no longer be red, and the *Enabled* checkbox on the Joystick page should be checked.
+完成時，*Joystick* 頁面將不在呈現紅色, 控制器頁面的 *Enabled* checkbox 選項應為已選取狀態.
 
 # Button Setup
 
