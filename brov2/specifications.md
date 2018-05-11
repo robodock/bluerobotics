@@ -12,16 +12,16 @@ nav:
 - - 相關資源: 相關資源
 - 產品規格: 產品規格
 - - 尺寸材質: 尺寸材質
-- - Performance: performance
-- - Battery: battery
-- - Lights: lights
-- - Tether: tether
-- - Sensors: Sensors
-- - Camera Tilt: camera-tilt
-- - Camera: camera
-- 3D Model: 3d-model
-- User Manuals: user-manuals
-- Issue Reporting: issue-reporting
+- - 性能: 性能
+- - 電池: 電池
+- - 照明: 照明
+- - 連接線: 連接線
+- - 感測器: 感測器
+- - 鏡頭俯仰: 鏡頭俯仰
+- - 鏡頭: 鏡頭
+- 3D 模型: 3D 模型
+- 使用手冊: 使用手冊
+- 勘誤報告: 勘誤報告
 
 store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -95,87 +95,85 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 | 配重鉛塊            | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
 | 電池連接頭		  | XT90                       |
 
-## Performance 
+## 性能 
 
-| Maximum Rated Depth                    | 100 m         | 330 ft        |
-| Maximum Tested Depth (so far)          | 130 m         | 425 ft        |
-| Maximum Forward Speed                  | 1 m/s         | 2 knots       |
-| Thrusters                              | [Blue Robotics T200](http://docs.bluerobotics.com/thrusters/t200/)            |
-| ESC                                    | [Blue Robotics Basic 30A ESC](http://docs.bluerobotics.com/besc/)   |
-| Thruster Configuration                 | [6 thrusters](http://ardusub.com/images/vectored-frame.png)                   |
+| 最大額定深度                   | 100 m         | 330 ft        |
+| 最大測試深度(目前為止)          | 130 m         | 425 ft        |
+| 最大前進速度d                  | 1 m/s         | 2 knots       |
+| 推進器                        | [Blue Robotics T200](http://docs.bluerobotics.com/thrusters/t200/)            |
+| ESC(電子調速器)                                    | [Blue Robotics Basic 30A ESC](http://docs.bluerobotics.com/besc/)   |
+| 推進器組態                 | [6 thrusters](http://ardusub.com/images/vectored-frame.png)                   |
 |                                        | - 4 Vectored                  | 
 |                                        | - 2 Vertical                  | 
-| Forward Bollard Thrust                 | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>     |
-| Vertical Bollard Thrust                | 9 kg<sub>f</sub>       | 20 lb<sub>f</sub>      |
-| Lateral Bollard Thrust                 | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>      |
+| 縱向推力                 | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>     |
+| 垂直向推力               | 9 kg<sub>f</sub>       | 20 lb<sub>f</sub>      |
+| 橫向推力                | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>      |
 
-## Battery
+## 電池
 
-| Battery Life (Normal Use)              | ~3 hours w/ [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) |
-| Battery Life (Light Use)               | ~5 hours w/ [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) |
+| 電池使用時間 (一般使用)              | ~3 hours w/ [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) |
+| 電池使用時間 (輕度使用)              | ~5 hours w/ [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) |
 
-The batteries can be changed in about 30 seconds.
+電池可在30秒內完成交換.
 
-## Lights
+## 照明
 
-| Brightness       | 1500 lumens each with dimming control                  |
-| Light Beam Angle | 135 degrees, with adjustable tilt                    |
+| 亮度       | 1500 流明，亮度可調整            |
+| 光束角度   | 135 degrees, 傾斜度可手動調整     |
 
-## Tether
+## 連結線
 
-| Diameter | 7.6 mm | 0.30 in |
-| Length   | 25-300 m | 80-980 ft |
-| Working Strength | 45 kg<sub>f</sub> | 100 lb<sub>f</sub> |
-| Breaking Strength | 160 kg<sub>f</sub> | 350 lb<sub>f</sub> |
-| Strength Member | Kevlar with waterblock |
-| Buoyancy in Freshwater | Neutral |
-| Buoyancy in Saltwater | Slightly Positive |
-| Conductors | 4 twisted pairs, 26 AWG |
+| 直徑 | 7.6 mm | 0.30 in |
+| 長度 | 25-300 m | 80-980 ft |
+| 工作強度 | 45 kg<sub>f</sub> | 100 lb<sub>f</sub> |
+| 破斷強度 | 160 kg<sub>f</sub> | 350 lb<sub>f</sub> |
+| 強度元件材質 | 防水克維拉(Kevlar)合成纖維 |
+| 淡水中浮力 | 中性 |
+| 海水中浮力 | 輕微上浮力 |
+| 線材導體 | 4 對雙絞線, 26 AWG |
 
-## Sensors
+## 感測器
 
-- 3-DOF Gyroscope (on the PixHawk)
-- 3-DOF Accelerometer (on the PixHawk)
-- 3-DOF Magnetometer (on the PixHawk)
-- Internal barometer (on the PixHawk)
-- [Blue Robotics Bar 30 Pressure/Depth and Temperature Sensor](http://docs.bluerobotics.com/bar30/) (external) 
-- Current and Voltage Sensing (included with the PixHawk)
+- 3-DOF 羅盤 (PixHawk內置)
+- 3-DOF 加速度計 (PixHawk內置)
+- 3-DOF 磁力計 (PixHawk內置)
+- 內部氣壓計 (PixHawk內置)
+- [Blue Robotics Bar 30 氣壓/深度/溫度 感測器](http://docs.bluerobotics.com/bar30/) (外部) 
+- 電流與電壓監測 (PixHawk內置)
 
-## Camera Tilt
+## 鏡頭俯仰
 					   
-| Tilt Range                 | +/- 90 degree camera tilt (180 total range)                                             | 
-| Tilt Servo                 | Hitec HS-5055MG         |
+| 俯仰範圍            | +/- 90 度 (總範圍 180 度)   | 
+| 俯仰控制伺服馬達     | Hitec HS-5055MG           |
 
-## Camera
+## 鏡頭
 
-| Field of View (Underwater) | 110 degrees (horizontal)                                                              |                                                      
-| Light Sensitivity          | 0.01[lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                              |
-| Resolution                 | 1080p                                                                                 |
+| 視野 (水下) | 110 degrees (水平)  |                                                      
+| 光線敏感度  | 0.01[lux](https://en.wikipedia.org/wiki/Lux#Illuminance)  |
+| 解析度     | 1080p       |
 
-## Control System
+## 控制系統
 
-| Tether Interface Board              	| [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                |
-| Control System 						| [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
-
-
-# 3D Model
-
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerov2-1).
-
-# User Manuals
-
-1. Please look at our [Assembly Manual](/brov2/assembly) for more detailed assembly instructions.
-
-2. If you **received your BlueROV2 after October 24, 2016**, please look at our [Software Setup Manual](/brov2/software-setup/) for more details on setting up your topside computer. If you **received your BlueROV2 prior to October 24, 2016** please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
-
-3. Please look at our [_BlueROV2_ Operating Manual](/brov2/operation) for a detailed operating manual.
-
-# Issue Reporting
-
-We're always trying to make our documentation, instructions, software, and user experience better. If you're having an issue with anything, please report it so that we can address it as soon as possible! Here's where to do that depending on what's wrong:
-
-- **ArduSub Issues:** For anything related to the ArduSub software that runs on the Pixhawk and controls the ROV, reports issues on the [ArduSub Github Issues Page](https://github.com/bluerobotics/ardusub/issues). If you're unsure where your issue should be posted, you can report it here.
-- **QGroundControl Issues:** For anything related to the QGroundControl software, joystick setup, video streaming, etc., please report an issue on the [QGroundControl Github Issues Page](https://github.com/mavlink/qgroundcontrol/issues).
-- **Documentation:** For anything related to the documentation and instructions here, please report an issue on the [Blue Robotics Documentation Github Issues Page](https://github.com/bluerobotics/bluerobotics.github.io/issues).
+| 連接線介面     	| [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                |
+| 控制系統		| [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 
 
+# 3D 模型
+
+3D模型檔案龐大，如需觀看或下載，請前往 [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerov2-1).
+
+# 使用手冊
+
+1. 組裝：請前往查看我們的 [組裝手冊](/brov2/assembly) , 了解詳細的組裝步驟.
+
+2. 軟體設定：如果您的BlueROV2是 ** October 24, 2016 之後的版本 **, 請使用 [Software Setup Manual](/brov2/software-setup/) 來設定操作電腦端程式. 如果是 ** October 24, 2016 之前的版本 ** 請直接參考 [ArduSub Documentation](http://ardusub.com/introduction/#overview).
+
+3. 操作：詳細內容請參考 [_BlueROV2_ 操作手冊](/brov2/operation).
+
+# 勘誤回報
+
+我們盡可能讓我們的文件、說明書、軟體更好更完善，如果您發現任何錯誤或可改進之處，請不吝通知我們或相關社群，貢獻一己之力。
+
+- **ArduSub Issues:** 有關 ArduSub 軟體，使用 Pixhawk 控制器來控制 ROV 的議題，請回報至 [ArduSub Github Issues Page](https://github.com/bluerobotics/ardusub/issues). 
+- **QGroundControl Issues:** 有關 QGroundControl 岸端介面軟體, 搖桿設定, 視訊串流, 等等議題, 請回報至 [QGroundControl Github Issues Page](https://github.com/mavlink/qgroundcontrol/issues).
+- **Documentation:** 本文件、操作說明, 英文版請回報至 [Blue Robotics Documentation Github Issues Page](https://github.com/bluerobotics/bluerobotics.github.io/issues). 中文版請回報至 [bluerov.robodock.net Github Issues Page](http://github.com/robodock/bluerov/issues)
