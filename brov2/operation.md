@@ -5,38 +5,37 @@ permalink: /brov2/operation/
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: operating-manual-intro
-- - Safety: safety
-- Batteries: batteries
-- - LiPo Safety: lipo-safety
-- - Charging: how-to-charge-your-battery
-- - Swapping Batteries: swapping-batteries
-- First Dive: getting-ready-for-your-first-dive
-- - Connecting Batteries: connecting-your-batteries
-- - Topside Setup: setting-up-your-topside-control
-- - Vacuum Test: vacuum-test
-- - Controller Functions: controller-functions
-- - Dive Modes: dive-modes
-- Pre-Dive Checklists: pre-dive-checklists
-- - Comprehensive Checklist: comprehensive-checklist
-- - Pre-Dive Checklist: pre-dive-checklist
-- Launch: launch
-- - All Launches: all-launches
-- - Boat Launch: boat-launch
-- - Shore Launch: shore-launch
-- - Dock Launch: dock-launch 
-- Operation: operation
-- - Tether Managament: tether-management
-- - Driving Guidelines: driving-guidelines
-- - Between Dives: storage-between-dives
-- Recovery: recovery
-- - Powered Recovery: powered-recovery
-- - Unpowered Recovery: unpowered-recovery
-- Post-Mission Checklist: post-mission-checklist
-- Preventative Maintenance: preventative-maintenance
-- - Every 100 Hours: every-100-hours-of-operation-or-every-6-months 
-- Connection Diagrams: connection-diagrams
-- Issue Reporting: issue-reporting
+- 操作手冊說明: 操作手冊說明
+- - 安全: 安全
+- 電池: 電池
+- - LiPo使用安全: LiPo使用安全
+- - 如何充電: 如何充電
+- - 更換電池: 更換電池
+- 準備首航: 準備首航
+- - 連接電池: 連接電池
+- - 設置岸端控制電腦: 設置岸端控制電腦
+- - 真空測試: 真空測試
+- - 控制器功能: 控制器功能
+- - 潛航模式: 潛航模式
+- 檢查表: 檢查表
+- - 完整檢查表: 完整檢查表
+- - 下水前檢查表: 下水前檢查表
+- 下水: 下水
+- - 所有的施放方式: 所有的施放方式
+- - 船舶施放: 船舶施放
+- - 碼頭岸邊施放: 碼頭岸邊施放
+- 操作: 操作
+- - 連接線管理: 連接線管理
+- - 潛航指南: 潛航指南
+- - 使用後存放: 使用後存放
+- 收回: 收回
+- - 有動力收回: 有動力收回
+- - 無動力收回: 無動力收回
+- 任務後檢查: 任務後檢查
+- 預防性維護: 預防性維護
+- - 定期維護: 定期維護 
+- 接線圖: 接線圖
+- 勘誤回報: 勘誤回報
 
 store-links:
 - BlueROV: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -49,269 +48,267 @@ manual-links:
 
 <img src="/brov2/cad/BR2-banner.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Operating Manual Intro
+# 操作手冊說明
 
-The information on this page is for operating the BlueROV2. In order to operate the BlueROV2, it must be assembled and the software must be set up. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/). If you have not completed the software setup, please see our [Software Setup](/brov2/software-setup/) page.
+本頁面資訊用來操作 BlueROV2，為了可以進行操作，BlueROV2 必須完成組裝，完成軟體安裝、設定，如果您尚未完成這些項目，請參考 [組裝手冊](/brov2/assembly/). 與 [軟體設定](/brov2/software-setup/) 相關頁面.
 
-## Safety 
+## 安全 
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 在電氣環境中工作時，請隨時注意安全， 確認連頭連結穩固並維持水密。並將身體遠離轉動的馬達、螺槳部位。
 
-# Batteries
+# 電池
 
-We recommend using LiPo batteries for the _BlueROV2_. If you do not have any experience with LiPo batteries, [our Battery Selection Guide](/battery/) has good introductory information on LiPo batteries. 
+推薦使用 LiPo (鋰聚合物)電池作為 _BlueROV2_ 的動力. 如果您對 LiPo 電池不熟悉，可以參考這篇[電池選用指南](/battery/). 
 
-## LiPo Safety
+## LiPo使用安全
 
-[Our Battery Selection Guide](/battery/#lipo-safety) has several links to detailed LiPo safety information. The highlights are as follows:
+[電池選用指南](/battery/#LiPo使用安全) 中有數個關於 LiPo 鋰聚合物使用安全的連結. 重點摘要如下:
 
-- Charge LiPo batteries in a fire proof bag
-- Let LiPo batteries cool off for at least 15 minutes after use before charging
-- Never leave a LiPo battery unattended when charging
-- Install a smoke detector in the area where you charge your LiPo batteries
+- 使用防火袋進行充電
+- 使用後請冷卻至少15分鐘後再行充電
+- 絕不可在無人看管的環境下進行充電
+- 在充電環境中安裝煙霧偵測器
 
-## How to Charge Your Battery
+## 如何充電
 
-To ensure that your LiPo batteries last as long as possible, it is important to not discharge the battery below 3.2 volts per cell or 12.8 volts if you are using a 4S battery.  
+為了讓 LiPo 電池壽命長久，請勿過度放電至 3.2 伏特以下(每個 Cell)，如果用的是 4S 電池，總電壓勿低於 12.8 伏特。
 
-A nominal 14.8 volt (a 4s pack) LiPo battery is fully charged when it reaches 16.8 volts (4.2 volts per cell). If you charge a 4S battery beyond 16.8 volts, the battery may become damaged or catch fire. To safely charge a LiPo battery, you should charge with a LiPo-compatible charger. A LiPo-compatible charger will prevent over-charging; it will also balance the cells. A good rule of thumb is to charge your LiPo battery at less than or equal to "1C" or 1 time its capacity. So, if you are using the 10,000mAh battery, you would want to charge at or less than 10 amps.
+標準的 14.8 伏特(4S) LiPo 電池，完全充飽時可達 16.8 伏特(每個 Cell 4.2 伏特). 如果繼續加壓充電，電池可能起火燃燒。 請務必使用具有過充防止、平衡充電功能的 LiPo 電池專用充電器。一個簡易準則是，使用等於或小於其 "C" 值 的電流量進行充電，例如使用 10,000 mAh (10C)的電池，請使用小於 10 安培的電流充電。 
 
-## Swapping Batteries
+## 更換電池
 
-To exchange batteries in the _BlueROV2_ use the following procedure:
+_BlueROV2_ 更換電池的程序如下:
 
-1. Move the _BlueROV2_ to a dry area.
-2. Remove the vent plug from the vent penetrator. Place the vent plug in a safe place
-3. Remove the 4-hole end cap from the battery enclosure
-4. Disconnect battery and remove it from the battery enclosure.
-5. Connect new battery and place it in the battery enclosure.
-6. Install 4-hole end cap onto battery enclosure.
-7. Check the O-rings on the vent plug, then install it into the vent penetrator.
+1. 將 _BlueROV2_ 移至乾燥區域.
+2. 取下通氣塞. 放置安全區域(避免不小心遺失)
+3. 取下電池水密筒的4孔後蓋板
+4. 卸下電池連接頭，取出電池
+5. 接上新電池並放至筒內
+6. 裝上4孔後蓋板
+7. 檢查通氣塞的 O 型環, 然後裝上通氣塞
 
-# Getting Ready for Your First Dive
+# 準備首航
 
-Before putting the BlueROV2 in the water, there are a few things that you need to do. 
+在把 BlueROV2 放進水裡之前，有幾件事要記得做：
 
-Your first dive should be in a body of water that is shallow, still, and clear. We recommend a pool or a test tank. Testing in a more controlled environment will provide a good opportunity to check that the ROV is ballasted correctly. It will also allow you to confirm that your controller is set up correctly and your ROV is behaving how you expect it to. 
+第一次測試時，請選擇淺水、靜態、清澈的水域。我們建議到池塘或準備一個測試水缸，除了可以檢驗 ROV 的重心、浮力、配重壓載是否正確外，也方便檢查推進器、控制器是否設定正確。
 
-## Connecting Your Batteries
+## 連接電池
 
-To get ready for your first dive, you need to start by connecting a charged battery using the same process as shown in the [Swapping Batteries](#swapping-batteries) section. 
+使用上述 [更換電池](#更換電池) 段落的說明，換上充好電的電池。 
 
-## Setting up Your Topside Control
+## 設置岸端控制電腦
 
-To set up your topside control follow the instructions on the [Software Setup](/brov2/software-setup/) page.
+參考 [軟體設定](/brov2/software-setup/) 頁面，設置好電腦、QGroundControl 軟體、控制器搖桿。
 
-## Vacuum Test 
+## 真空測試 
 
-To perform a vacuum test on the _BlueROV2_, you need a vacuum pump. If you do not own one, we recommend [this pump.](http://www.bluerobotics.com/store/tools/hand-operated-vacuum-pump/) It is important to do a vacuum test prior to putting the _BlueROV2_ in the water for the first time. It is also important to perform a vacuum test after changing anything that could compromise a seal, such as changing out a penetrator or an O-ring.
+要在 _BlueROV2_ 上進行真空測試，需要一個真空幫浦. 像是[這個](http://www.bluerobotics.com/store/tools/hand-operated-vacuum-pump/) 此步驟很重要，除了在首次下水前必先完成外，建議在每次拆卸更動水密元件後，進行一次水密測試。
 
-The vacuum test can be performed using the following procedure:
 
-1. Remove the vent plugs from both the electronics and the battery enclosure.
-2. Install one of the vacuum plugs on the included tee in the electronics enclosure and the other in the battery enclosure.
-3. Pump until the gauge reads 10 in. Hg [34 kPa] vacuum.
-4. Let the _BlueROV2_ and pump sit for 15 minutes.
-5. If the gauge reads above 9 in. Hg [31 kPa] vacuum after 15 minutes, your seals are acceptable.
+真空測試步驟如下:
 
-If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should check the following:
+1. 移除主水密筒與電池筒的通氣塞.
+2. 使用內付的真空測試 T 型分接管，一端接至主水密筒上，另一端接至電池筒上.
+3. 抽真空到真空表讀數為 10 in. Hg [34 kPa].
+4. 靜置 15 分鐘.
+5. 如果真空表的讀數仍在 9 in. Hg [31 kPa] 之上，表示密封程度是可接受的.
 
-1. Make sure that the M3 screws on the front and back end caps of the battery and electronics encloure using the M2.5 hex driver. If you are able to tighten one or more, attempt the vacuum test again. 
-2. Make sure the the penetrators on the battery and electronics enclosure are fully tightened. Check by attempting to loosen by hand. If you are able to tighten one or more, attempt the vacuum test again.
-3. Make sure that all of the O-rings are installed in the penetrators. If any are missing, install then attempt the vacuum test again.
-4. Check that the Face seal O-rings and radial O-rings are installed in the battery and electronics enclosures and in good condition. If you find a damaged or missing O-ring, install and attempt the vacuum test again.
+如果真空表讀數掉至 9 in. Hg [31 kPa] 以下，請檢查下列項目:
 
-## Controller Functions
+1. 確認前後蓋板的 M3 固定螺絲皆已鎖緊牢固(使用 M2.5 六角扳手)，如有鬆動現象，請鎖緊後再測試. 
+2. 確認所有穿線塞皆已完全鎖緊，如有鬆動現象，請鎖緊後再測試.
+3. 確認所有穿線塞的 O 型環皆安裝妥當，如有遺漏，請裝上後再測試.
+4. 確認所有 O 型環狀態良好，各密合面乾淨無異物，重新清潔後再測試.
 
-The BlueROV2 comes with the button setup shown below as a default:
+## 控制器功能
+
+BlueROV2 的控制器按鍵預設組態如下:
 
 <img src="/brov2/cad/joystick-defaults.png" class="img-responsive img-center" style="max-width:800px" />
 
-If you do not like the button settings, you can change the button setup in QGroundControl.
+如果不適應，可在 QGroundControl 中進行設定：
 
-1. Go to _Settings_ then select "Joystick" 
+1. 前往 _Settings_ 頁面，選取 "Joystick" 
 
-2. Under "Button actions:" QGroundControl shows what all buttons are currently set to control.
+2. 在 "Button actions:" 頁面，QGroundControl 會顯示出目前的設定值.
 
-3. Press the button that you are interested in changing. The button number will light up.
+3. 按下想要進行變更的按鍵. 按鍵號碼會亮起.
 
-4. Select what you would like the button to do from the dropdown to the right of the button number.
+4. 從下拉選單中選擇按鍵要對應的動作.
 
-## Dive Modes
+## 潛航模式
 
-- In **Manual Mode** the BlueROV2 will only output motor controls based on the pilot input from the joysticks. There is no feedback stabilization, heading holding, or depth holding.
+- **Manual Mode** 手動模式，BlueROV2 僅會在操縱者輸入控制時才會動作。
 
-- In **Stabilize Mode** the BlueROV2 will stabilize roll to level and it will maintain heading when not commanded to turn. The vertical control is left entirely to the pilot.
+- **Stabilize Mode** 穩定模式，BlueROV2 會保持機體水平穩定，並在無轉向輸入時維持住首向， 垂直升降控制則完全交由操縱者控制。
 
-- In **Depth Hold Mode** the BlueROV2 will hold depth unless you command it to dive/ascend. It will also stabilize roll to level and maintain heading when not commanded to turn.
+- **Depth Hold Mode** 深度維持模式，BlueROV2 會維持目前的深度，同時保持機體水平穩定與首向，直到操縱者輸入動作。
 
-# Pre-Dive Checklists
+# 檢查表
 
-## Comprehensive Checklist
+## 完整檢查表
 
-This checklist is more thorough than the [Pre-Dive Checklist](#pre-dive-checklist) and should be done in a couple of circumstances:
+這些檢查動作比 [下水前檢查表](#下水前檢查表) 來的詳細，應在下列情況發生後實施:
 
-- After travel by airplane
-- After extended travel by car or boat (>1 hour)
-- After taking off the electronics enclosure
-- After replacing or exchanging penetrators
-- After replacing any sealing O-ring
+- 搭機旅行後
+- 長程車船旅行後 (>1 hour)
+- 取下主水密筒後
+- 更換或交換穿線塞後
+- 更換任何水密 O 型環後
 
-**Comprehensive Checklist**
+**完整檢查表**
 
-- Check that the ROV has connected to QGroundControl
-- Tighten the M5x16 screws that hold the frame to the center and bottom panels using the short part of the M3 hex key as the handle or an M3 hex driver.
-- Tighten the M3x12 screws that hold the back end caps to the flange seals using the M2.5 hex driver.
-- Tighten the M3x16 screws that hold the clips to the electronics enclosure.
-- Tighten the M3x12 screws that hold the dome and the front battery end cap to the flange seals using the M2.5 hex driver.
-- Gently attempt to twist the ballast weights clockwise.
-- Pull on the side panels and attempt to twist the frame. 
-- Pull on the cable bundles going into the 14 hole end cap.
-- Pull on and twist the tether thimble.
-- Attempt to loosen all of the penetrators by hand.
-- Check that the vent plugs are installed.
-- Push and twist the battery enclosure.
-- Visually check that all screws holding the back end caps are installed and look tight.
-- Pull on all of the thrusters.
-- Grab and shake the fairings.
-- Pull on the _Lumens_.
-- Visually check that all screws holding the dome and front battery end cap are installed and look tight.
-- Visually check the radial seals on the electronics and battery enclosure.
-- Put the ROV on the ground and make sure that people are clear of the thrusters.
-- Put the ROV in manual mode.
-- Arm the ROV.
-- Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely.
-- Press the ascend/descend stick forward to check that the vertical thrusters are spinning freely.
-- Disarm the ROV.
-- Launch.
+- 檢查 ROV 已連接到 QGroundControl
+- 鎖緊機體主框架各部位的 M5x16 螺絲(使用 M3 六角扳手).
+- 鎖緊後蓋板的 M3x12 螺絲 (使用 M2.5 六角扳手).
+- 鎖緊固定主水密筒的夾具上的 M3x16 螺絲 (使用 M2.5 六角扳手).
+- 鎖緊前方球型透明罩與電池筒前方蓋板 M3x12 螺絲 (使用 M2.5 六角扳手).
+- 試著順時針方向轉動配重鉛塊(確認固定妥當).
+- 拉著機體兩側邊板嘗試扭轉框體. 
+- 拉一拉後方蓋板上的所有線束.
+- 拉動扭轉連接線套環.
+- 試著用手應無法轉鬆所有穿線塞.
+- 檢查所有通氣塞已安裝.
+- 推動扭轉電池筒.
+- 肉眼檢查所有蓋板螺絲是否有遺漏且固定妥當.
+- 拉一拉所有推進器.
+- 抓住並搖動整流罩.
+- 拉一拉_照明燈_
+- 肉眼檢查水密容器密封環.
+- 將 ROV 放置在地面上，確認人員與物品遠離推進器.
+- 將 ROV 切換至 manual mode 手動模式.
+- 切換至待機狀態(Armed).
+- 將前進/後退搖桿向前推，檢查向量推進器運轉正常.
+- 將上升/下潛搖桿向前推，檢查垂直推進器運轉正常.
+- 取消待機(Disarm) ROV.
+- 下水.
 
-## Pre-Dive Checklist
+## 下水前檢查表
 
-This checklist should be done every time the ROV is put into the water, prior to putting the ROV in the water. This checklist starts after you have connected the battery, reinstalled the battery enclosure end cap, and reinstalled the battery enclosure vent plug.
+下列檢查表為每次下水前的檢查事項
 
-- Check that the ROV has connected to QGroundControl.
-- Gently attempt to twist the ballast weights clockwise.
-- Pull on the side panels and attempt to twist the frame. 
-- Pull on the cable bundles going into the 14 hole end cap.
-- Pull on and twist the tether thimble.
-- Attempt to loosen all of the penetrators by hand.
-- Check that the vent plugs are installed.
-- Push and twist the battery enclosure.
-- Visually check that all screws holding the back end caps are installed and look tight.
-- Pull on all of the thrusters.
-- Grab and shake the fairings.
-- Pull on the _Lumens_.
-- Visually check that all screws holding the dome and front battery end cap are installed and look tight.
-- Visually check the radial seals on the electronics and battery enclosure.
-- Put the ROV on the ground and make sure that people are clear of the thrusters.
-- Put the ROV in manual mode.
-- Arm the ROV.
-- Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely. Do not run the thrusters for more than 30 seconds in air.
-- Press the ascend/descend stick forward to check that the vertical thrusters are spinning freely. Do not run the thrusters for more than 30 seconds in air.
-- Disarm the ROV
-- Now you are ready to launch
+- 檢查 ROV 已連接到 QGroundControl.
+- 試著順時針方向轉動配重鉛塊(確認固定妥當).
+- 拉著機體兩側邊板嘗試扭轉框體. 
+- 拉一拉後方蓋板上的所有線束.
+- 拉動扭轉連接線套環.
+- 試著用手應無法轉鬆所有穿線塞.
+- 檢查所有通氣塞已安裝.
+- 推動扭轉電池筒.
+- 肉眼檢查所有蓋板螺絲是否有遺漏且固定妥當.
+- 拉一拉所有推進器.
+- 抓住並搖動整流罩.
+- 拉一拉_照明燈_.
+- 肉眼檢查水密容器密封環.
+- 將 ROV 放置在地面上，確認人員與物品遠離推進器.
+- 將 ROV 切換至 manual mode 手動模式.
+- 切換至待機狀態(Armed).
+- 將前進/後退搖桿向前推，檢查向量推進器運轉正常，記得推進器請勿空轉超過 30 秒.
+- 將上升/下潛搖桿向前推，檢查垂直推進器運轉正常，記得推進器請勿空轉超過 30 秒.
+- 取消待機(Disarm) ROV
+- 下水
 
-# Launch
+# 下水
 
 <img src="/brov2/cad/brov2-launch.png" class="img-responsive img-center" style="max-width:800px" />
 
-The _BlueROV2_ can be launched in many conditions. Some conditions require special care.
+_BlueROV2_ 可以用很多方式施放. 其中一些情況可能需要特別注意.
 
-## All Launches
+## 所有的施放方式
 
-- Do not launch the ROV near swimmers or divers.  
-- Do not release the ROV prior to it touching the water. If necessary, use the tether to lower it down. When lowereing the ROV, keep the dome away from any hard or sharp objects.
-- Do not launch in water that is too shallow to freely drive the ROV.
-- Keep the ROV away from boats that do not know that the ROV is in the water.
-- Do not arm until the ROV is in the water and the launcher is clear of the ROV.
+- 請勿在靠近游泳者或潛水人員附近施放 ROV.  
+- 請勿在 ROV 碰觸水面前就放開手. 如果需要，可直接拉著連接線，緩慢降下 ROV 至水面，過程中要避免碰撞鏡頭球形罩.
+- 請勿在水深不足的地方施放 ROV.
+- 遠離其他船舶.
+- 在 ROV 尚未進入水中前，請勿進入待機狀態(Armed).
 
-## Boat Launch
+## 船舶施放
 
-- Keep the ROV and tether clear of the boat's propellers or jets.
-- Make sure that the captain of the boat knows that the ROV is about to be launched.
+- 保持 ROV 與連接線遠離船舶螺槳或推進器.
+- 確認船長知道您正在施放 ROV.
 
-## Shore Launch
+## 碼頭岸邊施放
 
-- Do not launch the ROV in heavy surf.
-- You may need to walk the ROV into the water to get to a point where the water is deep enough to drive the ROV.
+- 請勿在大浪時施放 ROV.
+- 請在水深足夠處施放 ROV.
 
-## Dock Launch
+# 操作
 
-# Operation
+## 連接線管理
 
-## Tether Management
+_BlueROV2_ 下潛航行時，連接線需要主動管理，良好準則如下:
 
-When diving the _BlueROV2_ the tether will require some active management. Here are some guidelines for good tether management:
+- 保持連接線遠離船舶螺槳或推進器.
+- 保持連接線與 ROV 遠離其他船舶.
+- 保持連接線遠離尖銳的珊瑚礁、岩石等等尖銳物體.
+- 請勿釋放過長的連接線. 多餘的連接線在水中會增加 ROV 阻力，同時也容易纏繞.
+- 請勿在尖銳的邊緣或粗糙的表面上佈線.
+- 請勿踩踏連接線.
 
-- Keep the tether away from propellers or jets if you are operating on a boat.
-- Keep the tether and ROV away from other boats that are not aware that it is in the water.
-- Keep the tether away from sharp objects such as coral, rocks, etc.
-- Do not deploy too much tether. Excess tether in the water will add drag to the ROV and opportunity for the tether to get caught on something.
-- Do not deploy the tether over sharp edges or rough ground.
-- Do not step on the tether.
+## 潛航指南
 
-## Driving Guidelines
+- 請勿潛入沙質海床. 如果誤入沙地，請先停止操縱，先讓 ROV 自然上浮一段距離後，再啟動推進器，可避免沙粒進入推進器.
+- 使用低增益且平順的操作可延伸電池時間.
+- 請勿碰撞毀損珊瑚.
+- 避免航行進海草叢中. 海草可能會吸入推進器並卡住螺槳.
+- 潛航時，可利用錨鍊或繩索獲得位置參考體. 
 
-- Do not drive into a sandy bottom. If you do drive into a sandy bottom, stop driving the vehicle and allow it to float up to prevent sand from getting into the vertical thrusters.
-- Drive smoothly and on low gain when possible to maximize battery life.
-- Do not touch coral with the ROV to prevent damage to the coral.
-- Avoid driving into seaweed when possible. Seaweed can get sucked into and stop the thrusters from spinning.
-- When diving, it is helpful to follow down a chain or a line to give a frame of reference. 
+## 使用後存放
 
-## Storage Between Dives
+如果 _BlueROV2_ 離開水面超過 15 分鐘，請保持在陰涼地方，如果找不到遮蔽處，可用毛巾覆蓋，提供遮蔽. 
 
-If you have a break between dives where the _BlueROV2_ is out of the water for more than 15 minutes, make sure to keep it in a shaded area. If there is no shade nearby, a towel draped over the ROV will supply sufficient shade. 
+# 收回
 
-# Recovery
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 手動收回 _BlueROV2_ 前請解除待機狀態(Disarm).
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Disarm the _BlueROV2_ prior to attempting to recover it.
+## 有動力收回
 
-## Powered Recovery
+正常狀態下，應該在 _BlueROV2_ 仍有動力時收回.
 
-Typically, you will be recovering the _BlueROV2_ when it is under power.
+- 操縱者可找到連接線，並沿著連接線回到出發施放點.
+- 操縱駛回時，可緩緩收回連接線，同時清除繫線上的雜質與檢查刮痕.
+- 當 ROV 回到出發點後，解除待機狀態(disarm).
+- 直接拿起 ROV，或拉起連接線收回，過程中避免旋轉、碰撞.
+- 移除電池筒通氣塞.
+- 取下電池.
 
-- The ROV pilot should find the tether and follow it back to the launching area.
-- While the pilot is driving back pull in the tether slack. Clean debris off of the tether and inspect for cuts or nicks while pulling in.
-- When the ROV arrives back to the launching location, disarm the ROV.
-- Pick up the ROV directly if practical, or pull the ROV up using the tether. Avoid sharp or hard object while lifting the ROV by the tether; allow space for the ROV to swing.
-- Remove the vent plug from the battery enclosure vent penetrator.
-- Disconnect the battery.
+## 無動力收回
 
-## Unpowered Recovery
+如果在航行中 ROV 失去電力或與 QGroundControl 的連接 請執行以下動作：
 
-If the ROV loses power or connection to QGroundControl while diving, you should do the following:
+- 以適當的速度拉回連接線，請勿過快.
 
-- Pull the tether in at a moderate pace. Don't try to pull it in as fast as possible.
+# 任務後檢查
 
-# Post Mission Checklist
+- 以淡水洗淨
+- 如果是在砂質海床或海草區域操作，請記得清理推進器中的異物.
 
-- Rinse down with fresh water
-- If you were operating in a sandy environment or seaweed, clean sand and seaweed from the thrusters.
-
-# Preventative Maintenance
+# 預防性維護
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
+僅可使用壓克力清潔劑或清水清潔球型罩與壓克力水密筒，請勿用溶劑、酒精類清潔劑以避免損傷材質.
 
-## Every 100 Hours of Operation or Every 6 Months 
+## 定期維護 
 
-- Replace _Lumen_ mount O-rings. 
-- Replace radial battery cap O-rings on the side that you open and close when swapping batteries.
-- Replace vent plug O-rings.
+每100小時操作後或每隔6個月
 
-# Connection diagrams
+- 更換照明燈 _Lumen_ O 型環. 
+- 更換電池筒常開蓋板端 O 型環.
+- 更換通氣塞 O 型環.
 
-These diagrams outline all of the electrical connections between components in the ROV. There is a different diagram for each version of the ROV that Blue Robotics has produced.
+# 接線圖
 
-- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
-- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
+下列圖表標示出 ROV 各元件間的電氣連接，請對應日期年分選取合適圖表使用.
+
+- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (2018年以前)
+- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018年與後續版本)
 - [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
 
-# Issue Reporting
+# 勘誤回報
 
-We're always trying to make our documentation, instructions, software, and user experience better. If you're having an issue with anything, please report it so that we can address it as soon as possible! Here's where to do that depending on what's wrong:
+我們盡可能讓我們的文件、說明書、軟體更好更完善，如果您發現任何錯誤或可改進之處，請不吝通知我們或相關社群，貢獻一己之力。
 
-- **ArduSub Issues:** For anything related to the ArduSub software that runs on the Pixhawk and controls the ROV, reports issues on the [ArduSub Github Issues Page](https://github.com/bluerobotics/ardusub/issues). If you're unsure where your issue should be posted, you can report it here.
-- **QGroundControl Issues:** For anything related to the QGroundControl software, joystick setup, video streaming, etc., please report an issue on the [QGroundControl Github Issues Page](https://github.com/mavlink/qgroundcontrol/issues).
-- **Documentation:** For anything related to the documentation and instructions here, please report an issue on the [Blue Robotics Documentation Github Issues Page](https://github.com/bluerobotics/bluerobotics.github.io/issues).
-
+- **ArduSub Issues:** 有關 ArduSub 軟體，使用 Pixhawk 控制器來控制 ROV 的議題，請回報至 [ArduSub Github Issues Page](https://github.com/bluerobotics/ardusub/issues). 
+- **QGroundControl Issues:** 有關 QGroundControl 岸端介面軟體, 搖桿設定, 視訊串流, 等等議題, 請回報至 [QGroundControl Github Issues Page](https://github.com/mavlink/qgroundcontrol/issues).
+- **Documentation:** 本文件、操作說明, 英文版請回報至 [Blue Robotics Documentation Github Issues Page](https://github.com/bluerobotics/bluerobotics.github.io/issues). 中文版請回報至 [bluerov.robodock.net Github Issues Page](http://github.com/robodock/bluerov/issues)

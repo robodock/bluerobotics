@@ -91,8 +91,8 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 | 材質      | HDPE 框架, 鋁製蓋板, 壓克力圓管 |
 | 主容器管 (電子控制器)      | [Blue Robotics 4 吋管系列/鋁蓋板](http://docs.bluerobotics.com/watertight-enclosures/#specifications-4-series)        |
 | 電池容器管                 | [Blue Robotics 3 吋管系列/鋁蓋板](http://docs.bluerobotics.com/watertight-enclosures/#specifications-3-series)        |
-| 浮力發泡橡膠               | [R-3318 聚氨脂發泡橡膠](https://www.bluerobotics.com/store/parts/float-r1/) rated to 210 meters                |
-| 配重鉛塊            | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
+| 浮力發泡橡膠               | [R-3318 聚氨脂發泡橡膠](https://www.bluerobotics.com/store/parts/float-r1/) 深度可達 210 公尺              |
+| 配重鉛塊            | 6 x [200公克上漆鉛塊](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
 | 電池連接頭		  | XT90                       |
 
 ## 性能 
@@ -103,11 +103,11 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 | 推進器                        | [Blue Robotics T200](http://docs.bluerobotics.com/thrusters/t200/)            |
 | ESC(電子調速器)                                    | [Blue Robotics Basic 30A ESC](http://docs.bluerobotics.com/besc/)   |
 | 推進器組態                 | [6 thrusters](http://ardusub.com/images/vectored-frame.png)                   |
-|                                        | - 4 Vectored                  | 
-|                                        | - 2 Vertical                  | 
-| 縱向推力                 | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>     |
-| 垂直向推力               | 9 kg<sub>f</sub>       | 20 lb<sub>f</sub>      |
-| 橫向推力                | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>      |
+|                                        | - 4 向量             | 
+|                                        | - 2 垂直             | 
+| 縱向推力                | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>     |
+| 垂直向推力              | 9 kg<sub>f</sub>       | 20 lb<sub>f</sub>     |
+| 橫向推力                | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>     |
 
 ## 電池
 
@@ -119,7 +119,7 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 ## 照明
 
 | 亮度       | 1500 流明，亮度可調整            |
-| 光束角度   | 135 degrees, 傾斜度可手動調整     |
+| 光束角度   | 135 degrees, 傾斜度可手動調整    |
 
 ## 連結線
 
