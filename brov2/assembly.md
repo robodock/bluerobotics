@@ -61,467 +61,463 @@ manual-links:
 
 <img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Archived Assembly Instructions
+# 歷史資料
 
-These are the most recent assembly instructions. Depending on the age of your kit, you may wish to refer to an older version:
+本文是最新的組裝手冊，如果您需要需要過去的版本，請參考這裡：
 
-- [Assembly Instructions for Kits Shipped Prior to March 2017](/brov2/assembly-pre201703/)
+- [組裝手冊-2017三月前](/brov2/assembly-pre201703/)
 
-# Assembly Intro
+# 組裝說明
 
-The BlueROV2 kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools to make assembly and regular use as easy as possible.
+BlueROV2 套件已部分預先組裝。組裝時僅會用到基本手工具；不需要焊接。套件中也包含一些有助於組裝與使用的工具。
 
-## Safety 
+## 安全 
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 在電氣環境中工作時，請隨時注意安全， 確認連頭連結穩固並維持水密。並將身體遠離轉動的馬達、螺槳部位。
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with silicone grease and threadlocker, take care to minimize skin contact. Wear protective nitrile or PVC gloves when handling.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 使用矽滑脂與螺絲固定膠時，請勿直接碰觸皮膚，儘可能穿戴合成乳膠或PVC手套.
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 僅在螺絲接觸金屬或HDPE材質機體框架處使用螺絲固定膠。大部分的螺絲膠與聚碳酸酯(PC)化學性質不相容，因此不能使用於推進器、整流罩與球型罩凸緣。請參考螺絲固定膠的使用說明。
 
-# Required Tools (Not Included)
+# 需自備工具
 
-- \#2 Phillips head screwdriver 
-- Wire cutters or scissors (for cutting zip ties)
-- Medium-strength (blue) threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
-- Isopropyl alcohol or isopropyl alcohol wipes
-- 2 mm flat head screw driver
+- \#2 十字螺絲起子 
+- 剪線鉗或剪刀(剪束線帶用)
+- 中等強度(藍色)螺絲固定膠[Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
+- 酒精或酒精棉片
+- 2 mm寬一字螺絲起子
 
-# What's Included
+# 套件內容
 
-## Frame
+## 框架
 
 Quantity      | Part														| Usage
 ------------- | ------------------------------------------------------------| ----------------------
-2             | Front center panel (1/2" thick black HDPE)        			|    
-2             | Rear center panel (1/2" thick black HDPE)           		|     	       
-1             | Bottom panel (1/2" thick black HDPE)                       	|  
-2             | Side panel (3/8" thick black HDPE)                       	|
-2             | Enclosure Cradle (4" Series) (black anodized aluminum)  	| Mounting the electronics enclosure to the frame
-8 			  | M4x18 socket head cap screw (316 stainless steel)           | Mounting the electronics enclosure cradles to the frame        
-12            | M5x16 button head cap screw (316 stainless steel)           | Assembling the frame
-7             | 8-16 thread, 5/8" long, thread-forming screw                | Mounting the ballast to the frame                         
-7             | Ballast Weight (200g, 7 oz)									| 
+2             | 前中央板 (1/2" thick black HDPE)        						|    
+2             | 後中央板 (1/2" thick black HDPE)           					|     	       
+1             | 底板 (1/2" thick black HDPE)                       			|  
+2             | 邊板 (3/8" thick black HDPE)                       			|
+2             | 水密筒固定架 (4" Series) (黑色陽極處理鋁)  						| 固定電子設備水密筒到機體框架上
+8 			  | M4x18 圓柱頭內六角螺絲(316不銹鋼)           					| 固定電子設備水密筒固定架到機體框架上        
+12            | M5x16 圓頭內六角螺絲(316不銹鋼)           						| 組裝機體框架
+7             | 8-16 螺紋, 5/8"長, 螺紋成型自攻螺絲            				| 固定壓載配重到機體框架上                         
+7             | 壓載配重(200g, 7oz)											| 
 
-## Electronics Enclosure                                                         
+## 電子設備水密筒                                                         
 
 Quantity      | Part																		| Usage
 ------------- | ----------------------------------------------------------------------------| ---------------
-1             | Electronics Tray (4" Series)                                                |                      
-1             | Watertight Enclosure for ROV/AUV w/ Dome End Cap installed                | Electronics enclosure          
-1             | Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blank, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable (installed)	|
-1             | Set of tether board power wires (installed)								| Provided power to the tether board
-4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
-1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
-1			  | 3DR Pixhawk (installed)														| Autopilot
-1             | I<sup>2</sup>C Splitter with cable											| Allows for up to 4 I<sup>2</sup>C devices
-1			  | Raspberry Pi 3 (installed)													| Companion computer
-1			  | Low-Light HD USB Camera (installed)   										| Camera
-1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
-2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
+1             | 電子設備托架 (4"系列)                                                			|                      
+1             | 具球型罩與端蓋板水密筒(ROV/AUV可用)            									| 電子設備水密保護          
+1             | 鋁製蓋板具14個開孔與3個空穿線塞,1個Bar30壓力傳感器,1個水密通氣塞,與一條電纜(已安裝)	|
+1             | 一組連接線介面板電源線(已安裝)													| 提供連接線介面板電源
+4             | M3x16圓柱頭內六角螺絲(316不銹鋼)  												| 固定電子設備水密筒到吊架上
+1			  | Fathom-X 連接線介面板(已安裝)													| 長距離乙太網路連接
+1			  | 3DR Pixhawk (已安裝)															| 導航、動態平衡電腦
+1             | I<sup>2</sup>C 分配器														| 可連接多達4個 I<sup>2</sup>C 裝置
+1			  | Raspberry Pi 3 (已安裝)														| 協力電腦
+1			  | 低光源 HD USB 攝影機鏡頭 (已安裝)   											| 攝影鏡頭
+1			  | Pixhawk 電源模組 (已安裝) 													| 提供 Pixhawk 電源同時監測電流與電池電壓
+2             | 通用 BEC 電路 (UBEC) (已安裝)								                    | 提供 Raspberry Pi 與 Pixhawk servo rails 電源         
 
-## Battery Enclosure
+## 電池水密筒
 
 Quantity      | Part																		| Usage
 ------------- | ----------------------------------------------------------------------------| ------------------------
-2             | Enclosure Clamp (3" Series) (black anodized aluminum w/ rubber strip)   	| Mounting the battery enclosure to the frame       
-1             | Watertight Enclosure for ROV/AUV (3" Series)                       			| Battery Enclosure
-1             | Aluminum End Cap (3" Series)    				  							|
-1             | Aluminum End Cap with 4 Holes (3" Series) w/ 2 blank penetrators and 1 vent installed (anodized aluminum 6061)  |                                                              
-1             | XT90 to 3.5 mm bullet connector adapter										| Adapting power wire connector to battery connector
-4             | M4x14 socket head cap screw (316 stainless steel)   						| Mounting the battery cradle to the frame
-4             | M3x12 socket head cap screws (316 stainless steel)             				| Connecting the battery cradles to each other    
-1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief       
+2             | 水密筒夾箍(3"系列) (黑色陽極處理鋁具橡皮帶)									   	| 固定電池水密筒到機體上       
+1             | 水密筒(ROV/AUV可用)(3"系列)					                       			| 電池水密筒
+1             | 鋁質端蓋(3"系列)    				  											|
+1             | 鋁質端蓋具4個開孔(3"系列)與2個空穿線塞，1個水密通氣塞(陽極鋁6061)  				|                                                              
+1             | XT90 to 3.5mm子彈頭端子轉接頭													| 連接電源線到電池
+4             | M4x14 圓柱頭內六角螺絲(316不銹鋼)						   						| 固定電池筒固定架到機體上
+4             | M3x12 圓柱頭內六角螺絲(316不銹鋼)					             				| 連接電池筒固定架    
+1			  | 1 1/2" 長 x 3/8" 直徑熱縮套管													| 電池纜線保護       
 
-## Thrusters
+## 推進器
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------|--------------
-3   		  | T200 Thrusters w/ Clockwise Propeller installed			|
-3 			  | T200 Thrusters w/ Counter-Clockwise Propeller installed |      
-16            | M3x16 socket head cap screw (316 stainless steel)      	| Mounting thrusters 1, 2, 3, and 4 to the frame
-8 			  | M3x12 socket head cap screw (316 stainless steel)		| Mounting thrusters 5 and 6 to the frame
-30            | 5 1/2" zip ties (nylon)									| Routing the thruster and lumen cables
+3   		  | T200 推進器 已安裝順時針螺槳								|
+3 			  | T200 推進器 已安裝逆時針螺槳								|      
+16            | M3x16 圓柱頭內六角螺絲(316不銹鋼)      					| 固定推進器 1, 2, 3, 4 到機體上
+8 			  | M3x12 圓柱頭內六角螺絲(316不銹鋼)							| 固定推進器 5, 6 到機體上
+30            | 5 1/2" 束線帶 (尼龍)										| 固定推進器與照明燈纜線
 
 ## Fairings
 
 Quantity      | Part																	|
 ------------- | ------------------------------------------------------------------------| ---------------------
-4             | BlueROV2 Fairings (blue polycarbonate)               					|
-4             | Subsea Buoyancy Foam (R-3318 urethane foam)                        		|
-16            | #4 size, 3/4" long pan head self tapping screw (316 stainless steel)    | Mounting the fairings and buoyancy to the frame                               
+4             | BlueROV2 整流罩 (藍色聚碳酸酯)               								|
+4             | 水下浮力泡棉 (R-3318 urethane foam)                       		 		|
+16            | #4 大小, 3/4"長 平頭自攻螺絲 (316不銹鋼)    								| 固定整流罩與浮力泡棉到機體上                               
 
-## Tether
+## 連接線
 
 Quantity      | Part														| Usage 
 ------------- | ------------------------------------------------------------|--------------
-1             | Fathom Tether w/ installed Cable Penetrator for 8 mm Cable (25-300m)           	|
-1             | Tether Cable Thimble                       					| Mounting the tether to the frame	
-5             | Heavy Duty Zip Ties											| Mounting the tether to the thimble and frame            
+1             | Fathom 連接線具 8mm 穿線塞(25-300公尺) 			         	|
+1             | 連接線吊環			                       					| 固定連接線到機體上	
+5             | 高強度束線帶													| 固定連接線到吊環與機體上            
 
-## Tools                                                      
+## 工具                                                      
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------| ---------------
-1             | Silicone Grease - 10g Tube								| Lubricate O-rings prior to installation 
-1             | O-Ring Pick   											| Remove and install O-rings
-1             | 2.5 mm hex driver										| Install M3 screws 
-1			  | #1 Phillips head screwdriver    						| Install the fairing screws 
-1			  | Penetrator Wrench             					        | Install penetrators
-1			  | 1.5 mm hex key											| Thruster dissassembly
-1			  | 2 mm hex key											| Change propellers
-1			  | 3 mm hex key									     	| Install M4 and M5 screws
+1             | 矽滑酯 - 10g Tube										| 安裝前塗抹在 O-rings 上 
+1             | O-Ring 夾   												| 移除與安裝 O-rings
+1             | 2.5 mm 六角扳手											| 安裝 M3 螺絲 
+1			  | #1 十字頭螺絲起子				    						| 安裝整流罩螺絲 
+1			  | 穿線塞扳手		             					        | 安裝穿線塞
+1			  | 1.5 mm 六角扳手											| 推進器拆解
+1			  | 2 mm 六角扳手											| 更換螺槳
+1			  | 3 mm 六角扳手									     	| M4 與 M5 螺絲用
 1			  | MicroSD to SD Adapter 									| 
-1			  | Hand Operated Vacuum Pump (Included as of January 2018)					| Pressure test WTEs
+1			  | 手動真空泵 (2018一月起內含)								| 壓力測試
 
 ## Lights
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-1-2           | Lumen Subsea Light w/ Mounts (Pair, Pre-Connected) (Optional)     
+1-2           | 水下照明燈具安裝座(成對, 預連接) (選購)     
 
 ## SOS Leak Sensor
 
 Quantity      | Part
 ------------- | ------------------------------------------------------------
-1             | SOS Leak Sensor Probe Host Board (installed)
-2             | 6" Probe (installed)
-2             | 12" Probe (installed)
-20            | Replacement SOS Probe Tips
-1 			  | Test Cable
+1             | 水密洩漏偵測控制板 (已安裝)
+2             | 6" 探針 (已安裝)
+2             | 12" 探針 (已安裝)
+20            | 替換探針頭
+1 			  | 測試線
 
 
-## Desiccant 
+## 乾燥劑 
 
-(Added to all ROVs ordered after February 14, 2018)
+(2018年2月14後加入)
 
 Quantity      | Part
 ------------- | ------------------------------------------------------------
-1             | 150 gram container of Moisture Indicating Silica Gel Desiccant
-3			  | Desiccant Bags
+1             | 150 公克除濕盒
+3			  | 除濕袋
 
-## Spares (Added to all ROVs ordered after February 14, 2018)
+## 備品 (2018年2月14後加入)
 
 Quantity      | Part                      | Usage
 ------------- | ------------------------- | -----------------
-1             | Cable Penetrator Blank    | Fill the hole for Lumen Penetrator if you aren't using Lumens
-2			  | 013 O-ring                | Extra penetrator O-rings
-1             | Cable Penetrator Nut      | Used with Cable Penetrator Blank if you aren't using Lumens
+1             | 空穿線塞    				  | 如不使用照明燈時，用來填補空的穿線孔
+2			  | 013 O-ring                | 額外的 O-rings
+1             | 穿線塞螺帽      			  | 如不使用照明燈時，用來填補空的穿線孔
 
 
-## What You Need for Operation that is Not Included 
+## 自備用品 
 
-There are some items necessary for operation that are not included with the kit. 
+這些是操作時需要用到，但不包含在套件中的項目
 
- - A gamepad controller. We recommend [an Xbox360 Controller](https://www.amazon.com/Microsoft-Wired-Controller-Windows-Console/dp/B004QRKWLA?th=1) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a Windows tablet. QGroundControl works on Mac, Windows, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
- - A 4S capable LiPo/Li-Ion balance battery charger. We use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).
+ - 搖桿控制器. 推薦使用[Xbox360 控制器](https://www.amazon.com/Microsoft-Wired-Controller-Windows-Console/dp/B004QRKWLA?th=1) 或 [Logitech F310 控制器](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - 筆記型電腦或 Windows平板電腦。QGroundControl 支援 Mac, Windows, 與 Linux 版本。
+ - BlueROV2 用電池。 原廠推薦使用 [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) 或是 2 or 3 個 [這個](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - 可充 4S LiPo/Li-Ion 電池的平衡充電器。例如 [這個](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).
  
-# Assembling the Frame
+# 組裝機體
 
-## Mounting the Battery Enclosure to the Bottom Panel
+## 固定電池水密筒到底板
 
-To mount the battery enclosure to the bottom panel you will need the following parts and tools:
+固定電池水密筒到底板時需要以下零件與工具：
 
-- 2 x Enclosure Clamp (3" Series)
-- 1 x Threadlocker 
-- 1 x Bottom panel 
-- 1 x Bag with four M4x14 socket head cap screws and four M3x12 socket head cap screws
-- 1 x Watertight Enclosure for ROV/AUV (3" Series)
-- 1 x 3 mm hex key
-- 1 x 2.5 mm hex driver
+- 2 x 水密筒夾 (3"系列)
+- 1 x 螺絲固定膠 
+- 1 x 底板 
+- 1 x 袋內有四支 M4x14 圓柱頭內六角螺絲與四支 M3x12 圓柱頭內六角螺絲
+- 1 x 水密筒 (3"系列)
+- 1 x 3 mm 六角扳手
+- 1 x 2.5 mm 六角扳手
 
-1. Remove the Aluminum End Cap with 4 Holes (3" Series) to open the Watertight Enclosure for ROV/AUV (3" Series) and set the bags inside of it to the side, except for the bag with four M4x14 and four M3x12 screws in it.
+1. 移除有四個開孔的鋁蓋板(3"系列)，打開水密筒or ROV/AUV (3" Series)，取出螺絲附件。
 
-2. Apply one drop of threadlocker to the bottom of each M4x14 socket head cap screw. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+2. 在每支 M4x14 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，可用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
 
 	<img src="/brov2/cad/brov2-loctite-applied.png" class="img-responsive" style="max-width:900px" />
 
-3. Attach one of the Enclosure Clamps (3" Series) to the bottom panel using the four M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side. Tighten the screws until you can feel them start to dig into the bottom panel.
+3. 將一個水密筒夾 (3"系列) 使用四支 M4x14 圓柱頭內六角螺絲固定至底板上。確定螺絲頭進到[螺絲頭擴孔](https://en.wikipedia.org/wiki/Counterbore). 底板只有一面有螺絲頭擴孔. 用力鎖緊螺絲直到螺絲有鑽入底板的感覺。
 
 	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:900px" /> 
 
-4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+4. 在 4 支 M3x12 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，同樣用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series) and install the four M3x12 screws into the Enclosure Clamps (3" Series). Note that each of the Enclosure Clamps (3" Series) are tapped on only one side. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. 在兩個 3"水密筒夾間安裝水密筒(3"系列) 併使用四支 M3x12 螺絲固定筒夾。每個筒夾僅在其中一側的螺絲孔具有螺紋，請注意方向。輪流平衡施力慢慢鎖緊螺絲，鎖緊即可，避免過度用力。安裝時請將水密筒維持在中央位置。
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
-	When you are finished tightening the screws, both sides should look similar to this.
+	鎖緊時兩側間隙看起來如下圖。
 
 	<img src="/brov2/cad/brov2-battery-cradle-screws-fully-installed.png" class="img-responsive" style="max-width:900px" />
 	
-## Assembling the Center Panels
+## 組裝中間板
 
-To assemble the center panels you will need the following parts and tools:
+組裝中間板時需要下列零件與工具：
 
-- 2 x Enclosure Cradle (4" Series)
-- 2 x Front center panels 
-- 2 x Rear center panels 
-- 1 x Threadlocker 
-- 1 x Bag with eight M4x18 socket head cap screws 
-- 1 x 3 mm hex key 
+- 2 x 水密筒夾(4"系列)
+- 2 x 前端中間板 
+- 2 x 後端中間板 
+- 1 x 螺絲固定膠 
+- 1 x 袋內有八支 M4x18 圓柱頭內六角螺絲 
+- 1 x 3 mm 六角扳手 
 
-1. Apply one drop of threadlocker to each of the eight M4x18 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+1. 在 8 支 M4x18 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
 
-2. Attach one of the Enclosure Cradle (4" Series) to the rear center panels. Tighten the screws until they indent the rear center panels slightly. 
+2. 安裝一支水密筒夾(4"系列)到後端中間板。鎖緊螺絲直到螺絲頭有開始沒入中間板的感覺。 
 
 	<img src="/brov2//cad/brov-assembly-step3-annotated.png" class="img-responsive" style="max-width:900px" />
 	
-3. Attach the other Enclosure Cradle (4" Series) to the front center panels. Tighten the screws until they indent the front center panels slightly. 
+3. 安裝另一支水密筒夾(4"系列)到前端中間板上。鎖緊螺絲直到螺絲頭有開始沒入中間板的感覺。 
 
 	<img src="/brov2//cad/brov-assembly-step4-annotated.png" class="img-responsive" style="max-width:900px" />
 	
-## Assembling the Frame
+## 組裝機體框架
 
-To assemble the frame you will need the following parts and tools:
+組裝機體框架需要用到下列零件與工具：
 
-- 1 x Threadlocker 
-- 1 x Bag with 12 M5x16 button head cap screws 
-- 2 x Side panels
-- 1 x Bottom panel with the Watertight Enclosure for ROV/AUV (3" Series) installed
-- 1 x Front center panel assembly
-- 1 x Rear center panel assembly
-- 1 x 3 mm hex key
+- 1 x 螺絲固定膠
+- 1 x 袋內有 12 支 M5x16 圓頭內六角螺絲 
+- 2 x 邊板
+- 1 x 已裝好電池水密筒的底板
+- 1 x 已裝好筒夾的前端中間板
+- 1 x 已裝好筒夾的後端中間板
+- 1 x 3 mm 六角扳手
 
 	
-1. Apply one drop of threadlocker to each of the 12 M5x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+1. 在 12 支 M5x16 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
 	
-2. Install both side panels to the bottom panel using four of the M5x16 screws; the Aluminum End Cap (3" Series) on the Watertight Enclosure for ROV/AUV (3" Series) should be on the same side as the Lumen mounting holes. **It is very important to avoid overtightening these screws.** Tighten these screws using the provided 3 mm hex key. Hold the short end of the 3 mm hex key while you are tightening the M5x16 screws. Do not tighten beyond the tightness you can achieve holding the short end of the 3 mm hex key. 
+2. 使用 4 支 M5x16 螺絲將邊板安裝到底板上；密閉鋁蓋板(3"系列)這一端應與照明燈安裝孔同側。**切勿過度鎖緊這些螺絲** 握著內附的 3mm六角扳手的短端來鎖緊螺絲，以避免力道過大。 
 
 	<img src="/brov2//cad/brov2-assembly-frame-1.png" class="img-responsive" style="max-width:900px" />
 	
-3. Install the center panel assemblies to the side panels using the remaining eight M5x16 screws. **It is very important to avoid overtightening these screws.** Tighten these screws using the provided 3 mm hex key. Hold the short end of the 3 mm hex key while you are tightening the M5x16 screws. Do not tighten beyond the tightness you can achieve holding the short end of the 3 mm hex key.
+3. 使用剩下的 8 支 M5x16 螺絲，將中間板固定到邊板上。**切勿過度鎖緊這些螺絲** 握著內附的 3mm六角扳手的短端來鎖緊螺絲，以避免力道過大。
 
 	<img src="/brov2//cad/brov2-assembly-frame-2.png" class="img-responsive" style="max-width:900px" />
 	
-Now the BlueROV2 should look like the picture below. 
+現在 BlueROV2 看起來會像這樣。 
 
 <img src="/brov2/cad/frame-assembled.png" class="img-responsive" style="max-width:900px" />
 
-# Electronics Enclosure Overview
+# 電子設備水密筒概觀
 
-The images below show orientation of the main pieces of hardware in the electronics enclosure. They also point out the names of several of the important parts for assembly that will be discussed in the remaining instrustions.
+底下圖片顯示出電子設備水密筒內各項主要元件的位置與方向。
 
-<b> <font size="4"> Top View </font> </b> 
+<b> <font size="4"> 上視圖 </font> </b> 
 <img src="/brov2//cad/advanced-top-render-1.png" class="img-responsive" style="max-width:900px" />
 
-<b> <font size="4"> Starboard View </font> </b> 
+<b> <font size="4"> 右側視圖 </font> </b> 
 <img src="/brov2//cad/advanced-starboard-render-1.png" class="img-responsive" style="max-width:900px" />
 
-<b> <font size="4"> Port View </font> </b> 
+<b> <font size="4"> 左側視圖 </font> </b> 
 <img src="/brov2//cad/advanced-port-render-1.png" class="img-responsive" style="max-width:900px" />
 
-<b> <font size="4"> Front View </font> </b> 
+<b> <font size="4"> 前方視圖 </font> </b> 
 <img src="/brov2//cad/advanced-front-render-1.png" class="img-responsive" style="max-width:900px" />
 
-## Connection diagrams
+## 接線圖
 
-These diagrams outline all of the electrical connections between components in the ROV. There is a different diagram for each version of the ROV that Blue Robotics has produced.
+下方連結提供不同時期版本的接線圖。
 
-- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
-- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
+- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (2018以前)
+- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018以後)
 - [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
 
-# Installing the Cables 
+# 安裝纜線 
 
-## Removing the Electronics Enclosure Endcap
+## 移除電子設備水密筒端蓋
 
-The endcap will need to be removed from the electronics enclosure in order to install the cable penetrators. To remove the endcap you will need the following parts and tools:
+水密筒端蓋需要移除才能安裝穿線塞，移除時需要下列零件與工具：
 
-- 1 x Large flat head screw driver (Optional)
-- 1 x The electronics enclosure assembly
-- 1 x 2.5 mm key driver 
+- 1 x 大號平頭(一字)起子 (Optional)
+- 1 x 預組好的電子設備水密筒
+- 1 x 2.5 mm 六角扳手 
 
-1. Remove the Watertight Enclosure for ROV/AUV with Dome End Cap installed from the rear O-Ring Flange (4" Series). If this step is difficult, you can place a large flat head screwdriver into the slots on the O-Ring Flange (4" Series), and then twist to get a gap between the acrylic tube and the O-Ring Flange (4" Series). Once you have the gap, you can wedge a screw driver between the end of the acrylic tube and the O-Ring Flange (4" Series) to finish removing the acrylic tube.
+1. 從後方O型環凸緣側移除整個壓克力筒，如果無法徒手完成，可使用一字起子伸入O型環凸緣槽中，扭動起子以便在壓克力筒與凸緣間產生空隙，當有空隙後，便可繼續使用一字起子撬開筒身。
 
 	<img src="/brov2/cad/electronics-assembly-step1.PNG" class="img-responsive" style="max-width:900px" />
 		
-2. Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place. 
+2. 使用 M2.5 六角扳手卸下 6 支 M3x12 螺絲，移除鋁質蓋板，記得保管好這些螺絲、L型固定片、O型環。 
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
-## Installing the Penetrators
+## 安裝穿線塞
 
-To install the Penetrators you will need the following parts and tools:
+安裝穿線塞時需要下列零件與工具：
 
-- 1 x Bag with one Cable Penetrator Nut (black), eight Cable Penetrator Nut (red), and nine O-rings
-- 1 x Silicone Grease - 10g Tube
-- 1 x Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
-- 3 x T200 with counter-clockwise thrusters 
-- 3 x T200 with clockwise thrusters 
-- 1 x Set of Lumen lights (optional)
-- 1 x Fathom ROV Tether
-- 1 x Penetrator Wrench
+- 1 x 袋內有一個黑色穿線塞螺帽，八個紅色穿線塞螺帽，與九條 O 型環。
+- 1 x 矽滑酯 - 10g Tube
+- 1 x 鋁質蓋板具有 14 個穿線孔，1個 Bar30 壓力傳感器，1個水密通氣塞，與一條已安裝電線
+- 3 x T200 推進器裝有反時針方向螺槳 
+- 3 x T200 推進器裝有順時針方向螺槳 
+- 1 x 組水下照明燈 (optional)
+- 1 x Fathom ROV 連接線
+- 1 x 穿線塞扳手
 
-The Aluminum End Cap with 14 Holes comes with 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed.
+鋁質蓋板共有 14 個開孔，其中三個為保留擴充用，1個 Bar30 壓力傳感器，1個通氣塞與一條已安裝電線。
 
 <img src="/brov2/cad/end-cap-as-shipped.png" class="img-responsive" style="max-width:900px" />
 
-If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized.
+建議依照下圖位置安裝配線，可讓空間使用最有效率。
 
 <img src="/brov2/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
 	
-1. Remove eight of the O-rings and apply silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
+1. 將八個 O 型環塗上矽滑酯，準備待會使用。
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:900px" />
 
-2. Wipe the exterior surface of the electronics enclosure endcap clean, and make sure it is free of any particles in the areas where the penetrator O-rings will sit.
+2. 將端蓋板擦拭清潔，確認無任何異物雜質附著。
 
-3. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator. 
+3. 將 O 型環安裝到所有的推進器穿線塞、照明燈穿線塞，連接線穿線塞上。 
 
-4. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
+4. 依照下列順序將穿線塞安裝置蓋板上。先以手指旋緊，然後使用穿線塞扳手再加鎖約 1/16 圈，如果無法用手指頭的力道鬆開螺帽，這樣就夠緊了。 
 
-	1. Thruster 1 (CCW propeller) with red penetrator nut
-	2. Thruster 5 (CCW propeller) with red penetrator nut
-	3. Thruster 3 (CW propeller) with red penetrator nut
-	4. Lumen with red penetrator nut
-	5. Thruster 4 (CW propeller) with red penetrator nut
-	6. Thruster 6 (CW propeller) with red penetrator nut
-	7. Thruster 2 (CCW propeller) with red penetrator nut
-	8. Tether with black penetrator nut
+	1. 推進器 1 (反槳) 紅色穿線塞
+	2. 推進器 5 (反槳) 紅色穿線塞
+	3. 推進器 3 (順槳) 紅色穿線塞
+	4. 照明燈 紅色穿線塞
+	5. 推進器 4 (順槳) 紅色穿線塞
+	6. 推進器 6 (順槳) 紅色穿線塞
+	7. 推進器 2 (反槳) 紅色穿線塞
+	8. 連接線 黑色穿線塞
 
-## Installing the End Cap
+## 安裝蓋板
 
-To reinstall the Aluminum End Cap with 14 Holes you will need the following parts and tools:
+要回裝鋁質端蓋板時，需要下列零件與工具：
 
-- The face seal O-ring, the 6 M3x12 screws, and the clips that you removed from the end cap earlier
-- 1 x Silicone Grease - 10g Tube
-- 1 x Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed
-- 1 x 2.5 mm hex driver
+- 方才卸下的水密 O 型環, 6 支 M3x12 螺絲，L 型夾片
+- 1 x 矽滑酯 - 10g Tube
+- 1 x 鋁質蓋板
+- 1 x 2.5 mm 六角扳手
 
-1. Clean the O-ring and make sure that it is free of any debris or damage. 
+1. 清潔 O 型環，確任無任何異物雜質附著或斷裂破損。 
 
-2. Clean the O-Ring Flange (4" Series) and make sure that the O-ring groove is free of any debris or damage.
+2. 清潔 O 型環凸緣(4"系列)，並確認 O 型環溝槽無任何異物雜質附著。
 
-3. Apply Silicone grease to the O-ring.
+3. 在 O 型環上塗抹矽滑酯。
 
-4. Install face seal O-ring onto the O-Ring Flange (4" Series). 
+4. 將 O 型環安裝至凸緣溝槽上。 
 
-5. Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+5. 在每一支 M3x12 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
 	
-6. Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4" Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap's orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator. 
+6. 將鋁質蓋板安裝至 O 型環凸緣上，先不要完全鎖緊螺絲，可能會讓 O 型環滑出溝槽。蓋板安裝方向請遵照下圖。 
 
 	<img src="/brov2/cad/end-cap-installed.png" class="img-responsive" style="max-width:900px" />
 
-## Finishing the Battery Enclosure
+## 完成電池水密筒安裝
 
-To complete the assembly of the battery enclosure you need the following parts and tools:
+完成電池水密筒安裝需要下列零件與工具：
 
-- 1 x Bag with one red penetrator nut and one O-ring left in it
-- 1 x Silicone Grease - 10g Tube
-- 1 x End Cap with 4 Holes (3" Series)
-- 1 x Penetrator wrench
-- 1 x XT90 to 3.5 mm bullet connector adapter
-- 1 x 1.5 inch piece of heat shrink
-- 1 x Heat gun, hairdryer, or lighter
+- 1 x 袋內有1個紅色穿線塞螺帽與一條 O 型環
+- 1 x 矽滑酯 - 10g Tube
+- 1 x 4個開孔的端蓋板(3"系列)
+- 1 x 穿線塞扳手
+- 1 x XT90 to 3.5 mm 子彈頭轉接線
+- 1 x 1.5 吋熱縮套管
+- 1 x 熱風槍, 吹風機或打火機
 
-1. Apply silicone grease to the O-ring.
+1. 在 O 型環上塗抹矽滑酯。
 
-2. Install the O-ring onto the battery power cable penetrator.
+2. 安裝 O 型環到電力線穿線塞。
 	
-3. Install the battery power cable penetrator into the opening in the battery end cap.
+3. 將電力線穿線塞裝到電池筒蓋板上。
 
-4. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
+4. 套上 1.5 吋長的熱縮套管到電力線穿線塞上。 
 
-5. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
+5. 使用熱風槍收縮熱縮套管，確認固定牢固。
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 
-6. Install the XT90 to bullet connector adapter to the battery power wire. 
+6. 安裝 XT90 轉換子彈頭端子連接線到電池電力線上。 
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-7. If you wish to do the Optional Preliminary Vacuum Test, remove the Vent Plug from the Vent Penetrator Bolt and install the endcap onto the battery enclosure. You will also need to remove the Vent Plug for the Vent Penetrator Bolt on the electronics enclosure.
+7. 如果您想進行初始真空測試，請移除從通氣螺栓上移除通氣塞，然後安裝蓋板到水密筒上。手動真空泵三通管可同時連接電子設備水密筒與電池水密筒，測試時也要把電子設備水密筒上的通氣塞移除。
 
-## Optional Preliminary Vacuum Test
+## 初始真空測試
 
-This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. You will need to use the vacuum pump that comes with the kit.
+這個階段是組裝過程中進行真空測試的最佳時機，所有穿線孔塞已完成安裝，但尚未配線，較容易進行故障排除。您將會用到內附的手動真空泵.
 
-1. Install the Watertight Enclosure (4" Series) with installed Dome onto the O-Ring Flange (4" Series) that is attached to the Aluminum End Cap with 14 Holes (4" Series)
+1. 將電子設備水密筒身安裝到已裝好鋁質蓋板的 O 型環凸緣上。
 
 	<img src="/brov2/cad/4-inch-end-cap-installed.png" class="img-responsive" style="max-width:900px">
 
-2. Assemble the vacuum tee.
+2. 裝好真空三通管。
 
 	<img src="/brov2/cad/vacuum-tee-assembled.png" class="img-responsive" style="max-width:900px">
 
-Now you are ready to perform the preliminary vacuum test.
+現在可以開始進行真空測試。
 
-1. Test your vacuum pump to ensure that it is not leaking. See our [Testing the Test Setup Tutorial](http://docs.bluerobotics.com/tutorials/vacuum-test-plug/#testing-the-test-setup) for detailed instructions. 
+1. 先測試您的手動真空泵，確定本身無洩漏，請參考[測試步驟教學](http://docs.bluerobotics.com/tutorials/vacuum-test-plug/#testing-the-test-setup)。 
 
-2. Insert one of the vacuum plugs into the battery enclosure vent penetrator.
+2. 插入一個抽氣接頭到電池水密筒的通氣塞。
 
 	<img src="/brov2/cad/vent-on-3-inch-end-cap-bw.png" class="img-responsive" style="max-width:900px">
 
-3. Insert the other vacuum plug into the electronics enclosure vent penetrator.
+3. 插入另一個抽氣接頭到電子設備水密筒通氣塞。
 
 	<img src="/brov2/cad/vent-on-4-inch-end-cap-bw.png" class="img-responsive" style="max-width:900px">
 
-4. Pump the vacuum until the gauge reads 10 in. Hg [34 kPa] vacuum. If you cannot pull a vacuum, try the suggestions following step 6, below.
+4. 手壓真空泵直到真空表到達 10 in. Hg [34 kPa] 真空。. 如果無法建立真空壓力，請參考下方步驟 6。
 
 	<img src="/brov2/cad/vacuum-10-inches-bw.png" class="img-responsive" style="max-width:900px">
 
-5. Let the BlueROV2 and pump sit for 15 minutes.
+5. 靜置 15 分鐘。
 
-6. If the gauge reads above 9 in. Hg [31 kPa] after 15 minutes, your seals are acceptable.
+6. 如果真空表讀數仍然在 9 in. Hg [31 kPa] 以上，水密程度是可以接受的。
 
 	<img src="/brov2/cad/vacuum-9-inches-bw.png" class="img-responsive" style="max-width:900px">
 
-If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should check the following:
+如果真空表讀數在 9 in. Hg [31 kPa] 以下，請檢查下列項目：
 
-1. Make sure that the M3 screws on the front and back end caps of the battery and electronics enclosure using the M2.5 hex driver. If you are able to tighten one or more, attempt the vacuum test again.
+1. 確認前後蓋板的 M3 固定螺絲皆已鎖緊牢固(使用 M2.5 六角扳手)，如有鬆動現象，請鎖緊後再測試。
+2. 確認所有穿線塞皆已完全鎖緊，如有鬆動現象，請鎖緊後再測試。
+3. 確認所有穿線塞的 O 型環皆安裝妥當，如有遺漏，請裝上後再測試。
+4. 確認所有 O 型環狀態良好，各密合面乾淨無異物，重新清潔後再測試.
 
-2. Make sure that the penetrators on the battery and electronics enclosure are fully tightened. Check by attempting to loosen by hand. If you are able to loosen one or more, tighten them then attempt the vacuum test again.
 
-3. Make sure that all of the O-rings are installed in the penetrators. If any are missing, install then attempt the vacuum test again.
+繼續組裝 BlueROV2, 移除電子設備水密筒的壓克力筒身。
 
-4. Check that the face seal O-rings and radial O-rings are installed in the battery and electronics enclosures and in good condition. If you find a damaged or missing O-ring, install and attempt the vacuum test again.
+## 安裝從穿線塞來的電力線
 
-If you are still having trouble holding vacuum, please contact us at <a href="mailto:support@bluerobotics.com">support@bluerobotics.com</a>
+安裝從穿線塞來的電力線，需要下列零件與工具：
 
-To continue assembling the BlueROV2, remove the acrylic tube and dome from the electronics enclosure.
+- 1 x 大號 (~#2) 十字螺絲起子
 
-## Installing the Power Wires from the Penetrators
-
-To install the wires from the penetrators you will need the following parts and tools:
-
-- 1 x Large (~#2) Phillips head screw driver
-
-1. Connect the battery power bullet connectors to bullet connectors on XT60 to bullet connector adapter. 
+1. 連接電源線子彈頭端子到 XT60-子彈頭轉接線上。 
 
 	<img src="/brov2/cad/electronics-enclosure-power-connection-bw.png" class="img-responsive" style="max-width:900px" />
 
-2. Connect the Lumen power wire (red) to the Power Terminal Block with the other red wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
+2. 連接照明燈電源線(紅色)到電力分配端子盤上接紅線的端子，可使用底部上來第二個端子。
 	
 	<img src="/brov2/cad/lumen-hot-grey.png" class="img-responsive" style="max-width:900px" />
 
-3. Connect the Lumen ground wire (black) to the Power Terminal Block with the other black wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
+3. 連接照明燈接地線(黑色)到電力分配端子盤上接黑線的端子，同樣使用底部上來第二個端子。
 	
 	<img src="/brov2/cad/lumen-ground-grey.png" class="img-responsive" style="max-width:900px" />
 
-## Installing the Signal Wires from the Penetrators
+## 安裝來自穿線塞的訊號線
 	
-To install the wires from the penetrators you will need the following parts and tools:
+安裝從穿線塞來的訊號線，需要下列零件與工具：
 
-- 1 x Small (~2 mm) flat head screw driver
+- 1 x 小號 (~2 mm) 一字起子
 
-1. Connect the Lumen signal wire to the Pixhawk channel 7 with the yellow wire oriented toward the bottom of the Pixhawk. 
+1. 連接照明燈訊號線到 Pixhawk channel 7 ，黃線朝向 Pixhawk 下方。 
 
 	<img src="/brov2/cad/lumen-signal-grey.png" class="img-responsive" style="max-width:900px" />
 
-2. Connect the Bar30 cable to the I<sup>2</sup>C port on the Pixhawk.
+2. 連接 Bar30 纜線到 Pixhawk 的 I<sup>2</sup>C 埠。
 
 	<img src="/brov2/cad/brov2-bar30-pixhawk-1.png" class="img-responsive" style="max-width:900px" />
 
-3. Connect the motor wires to the motor wire terminal block, as shown in the diagrams below.
+3. 連接推進器馬達線到馬達線端子盤, 如下圖所示。
 
 	<img src="/brov2/cad/port-side-motor-power-wiring-1.png" class="img-responsive" style="max-width:900px" />
 
 	<img src="/brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />	
 	
-4. Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
+4. 連接臍帶連接線到 Fathom-X 介面板。若使用 8 芯臍帶線，其餘 6 芯暫不使用，保留未來擴充用。
 
 	<img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
 
