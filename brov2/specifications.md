@@ -16,7 +16,7 @@ nav:
 - - 電池: 電池
 - - 照明: 照明
 - - 連接線: 連接線
-- - 感測器: 感測器
+- - 傳感器: 傳感器
 - - 鏡頭俯仰: 鏡頭俯仰
 - - 鏡頭: 鏡頭
 - 3D模型: 3D模型
@@ -37,40 +37,40 @@ manual-links:
 
 # 簡介
 
-_BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設置，提供了強力的穩定能力，提供載具平順穩定性，同時又具有高度操控性。_BlueROV2_ 以基本消費級 ROV 的價格，提供如同高階商用觀測級 ROV 的能力。
+_BlueROV2_ 是世界上價格最親民的高性能 ROV。 六具推進器的設置組態，提供了強大的穩定能力，提供載具穩定、平順的運動性，同時又具備高度操控性。_BlueROV2_ 以基本消費級 ROV 的價格，提供如同高階商用觀測級 ROV 的能力。
 
-<a href="http://bluerobotics.com/downloads/bluerov2.pdf" alt="BlueROV2 Datasheet"><i class="fa fa-download" aria-hidden="true"></i> Download Datasheet</a>
+<a href="http://bluerobotics.com/downloads/bluerov2.pdf" alt="BlueROV2 Datasheet"><i class="fa fa-download" aria-hidden="true"></i> 資料表下載 </a>
 
 ## 特性
 
 - 即時 1080p HD 高畫質影像
 - 高度操控性向量推進器組態
-- 穩定且為檢查級與研究級 ROV 任務最佳化
+- 觀測、檢查與研究級 ROV 任務最佳化
 - 易於使用，跨平台使用者介面軟體(支援 Windows, Mac, Linux)
-- 3組冗餘配線穿孔，具高度擴充性
+- 3組保留配線穿孔，具高度擴充性
 - 標準 100m 工作深度與 300m 連接纜線長度範圍
-- 6組 T200 推進馬達與電子調速器，提供同級產品中最佳之推力重量比
-- 鋰聚合物電池供電，可快速拆裝交換
+- 6組 T200 推進器馬達與電子調速器，提供同級產品中最佳之推力重量比
+- 鋰電池供電，可快速拆裝交換
 
 ## 產品包裝內容
 
 產品送達包裝中包含已預組套件，組裝時間約在 1.5~3 小時間，依操作經驗而定。
 
-[零件清單](/brov2/assembly/#whats-included) 在此。
+[零件清單](/brov2/assembly/#套件內容) 在此。
 
 ## 您還需要這些
 
 另外有些操作必要組件，並未包含在套件中：
 
- - 遊戲控制器. 我們推薦使用 [XBox One 遊戲控制器](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) 或是 [Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - 一台筆電或是 Windows 10 平板電腦。控制軟體 QGroundControl 具有 Mac, Windows 10, 與 Linux 版本。
- - 鋰聚合物電池。 我們推薦 [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) 或者 2 或 3 個 [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - 控制器. 我們推薦使用 [XBox One 遊戲控制器](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) 或是 [Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - 一台筆電或是 Windows 10 平板電腦。控制軟體 QGroundControl 具有 Windows 10, Mac 與 Linux 版本。
+ - 鋰電池。 我們推薦 [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) 或者 2 或 3 個 [這種](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - 鋰電池平衡充電器, 例如這款 [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
 
 ## 相關資源
 
  - [組裝說明](/brov2/assembly/)
- - [材料清單](/brov2/assembly/#whats-included)
+ - [材料清單](/brov2/assembly/#套件內容)
  - [初始軟體設定](/brov2/software-setup)
  - [操作手冊](/brov2/operation)
 
@@ -132,7 +132,7 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 | 海水中浮力 | 輕微上浮力 |
 | 線材導體 | 4 對雙絞線, 26 AWG |
 
-## 感測器
+## 傳感器
 
 - 3-DOF 羅盤 (PixHawk內置)
 - 3-DOF 加速度計 (PixHawk內置)
@@ -155,7 +155,7 @@ _BlueROV2_ 是世界上價格最低的高性能 ROV. 六個推進器的組態設
 ## 控制系統
 
 | 連接線介面     	| [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                |
-| 控制系統		| [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
+| 控制系統		| [3D Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 
 
 # 3D 模型

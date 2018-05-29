@@ -5,36 +5,36 @@ permalink: /brov2/assembly/
 order: 1
 topnavbar: brov2
 nav:
-- Archived Instructions: archived-assembly-instructions
-- Introduction: assembly-intro
-- - Safety: safety
-- Required Tools: required-tools-not-included
-- What's Included: whats-included
-- - Frame: frame
-- - Electronics Enclosure: electronics-enclosure
-- - Battery Enclosure: battery-enclosure
-- - Thrusters: thrusters
-- - Fairings: fairings
-- - Tether: tether
-- - Tools: tools
-- - Lights: lights
-- - Leak Sensor: sos-leak-sensor
-- - Desiccant: desiccant
-- What's Not Included: what-you-need-for-operation-that-is-not-included
-- Frame Assembly: assembling-the-frame
-- - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
-- - Center Panels: assembling-the-center-panels
-- - Frame: assembling-the-frame-1
-- Electronics Overview: electronics-enclosure-overview
-- - Connection diagrams: connection-diagrams
-- Cable Installation: installing-the-cables
-- - Removing Endcap: removing-the-electronics-enclosure-endcap
-- - Penetrator Installation: installing-the-penetrators
-- - End Cap Installation: installing-the-end-cap
-- - Finishing Battery Enclosure: finishing-the-battery-enclosure
-- - Optional Preliminary Vacuum Test: optional-preliminary-vacuum-test
-- - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
-- - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
+- 歷史資料: 歷史資料
+- 組裝說明: 組裝說明
+- - 安全守則: 安全守則
+- 需自備工具: 需自備工具
+- 套件內容: 套件內容
+- - 框架: 框架
+- - 電子設備水密筒: 電子設備水密筒
+- - 電池水密筒: 電池水密筒
+- - 推進器: 推進器
+- - 整流罩: 整流罩
+- - 連接線: 連接線
+- - 工具: 工具
+- - 照明燈: 照明燈
+- - 水密洩漏傳感器: 水密洩漏傳感器
+- - 乾燥劑: 乾燥劑
+- 自備器材: 自備器材
+- 組裝機體: 組裝機體
+- - 電池水密筒: 固定電池水密筒到底板
+- - 中間板: 組裝中間板
+- - 機體框架: 組裝機體框架
+- 電子設備概觀: 電子設備水密筒概觀
+- - 接線圖: 接線圖
+- 安裝纜線: 安裝纜線
+- - 移除端蓋: 移除電子設備水密筒端蓋
+- - 安裝穿線螺絲塞: 安裝穿線螺絲塞
+- - 安裝蓋板: 安裝蓋板
+- - 完成電池水密筒安裝: 完成電池水密筒安裝
+- - 初始真空測試: 初始真空測試
+- - 電源線穿線: 安裝從穿線塞來的電源線
+- - 安裝來自穿線塞的訊號線: 安裝來自穿線塞的訊號線
 - - Cable Routing: cable-routing
 - Final Assembly: final-assembly
 - - Desiccant: adding-desiccant-to-the-electronics-enclosure
@@ -71,7 +71,7 @@ manual-links:
 
 BlueROV2 套件已部分預先組裝。組裝時僅會用到基本手工具；不需要焊接。套件中也包含一些有助於組裝與使用的工具。
 
-## 安全 
+## 安全守則 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 在電氣環境中工作時，請隨時注意安全， 確認連頭連結穩固並維持水密。並將身體遠離轉動的馬達、螺槳部位。
 
@@ -143,7 +143,7 @@ Quantity      | Part													| Usage
 8 			  | M3x12 圓柱頭內六角螺絲(316不銹鋼)							| 固定推進器 5, 6 到機體上
 30            | 5 1/2" 束線帶 (尼龍)										| 固定推進器與照明燈纜線
 
-## Fairings
+## 整流罩
 
 Quantity      | Part																	|
 ------------- | ------------------------------------------------------------------------| ---------------------
@@ -163,7 +163,7 @@ Quantity      | Part														| Usage
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------| ---------------
-1             | 矽滑酯 - 10g Tube										| 安裝前塗抹在 O-rings 上 
+1             | 矽油 - 10g Tube										| 安裝前塗抹在 O-rings 上 
 1             | O-Ring 夾   												| 移除與安裝 O-rings
 1             | 2.5 mm 六角扳手											| 安裝 M3 螺絲 
 1			  | #1 十字頭螺絲起子				    						| 安裝整流罩螺絲 
@@ -174,13 +174,13 @@ Quantity      | Part													| Usage
 1			  | MicroSD to SD Adapter 									| 
 1			  | 手動真空泵 (2018一月起內含)								| 壓力測試
 
-## Lights
+## 照明燈
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
 1-2           | 水下照明燈具安裝座(成對, 預連接) (選購)     
 
-## SOS Leak Sensor
+## 水密洩漏傳感器
 
 Quantity      | Part
 ------------- | ------------------------------------------------------------
@@ -209,7 +209,7 @@ Quantity      | Part                      | Usage
 1             | 穿線塞螺帽      			  | 如不使用照明燈時，用來填補空的穿線孔
 
 
-## 自備用品 
+## 自備器材 
 
 這些是操作時需要用到，但不包含在套件中的項目
 
@@ -342,12 +342,12 @@ Quantity      | Part                      | Usage
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
-## 安裝穿線塞
+## 安裝穿線螺絲塞
 
 安裝穿線塞時需要下列零件與工具：
 
 - 1 x 袋內有一個黑色穿線塞螺帽，八個紅色穿線塞螺帽，與九條 O 型環。
-- 1 x 矽滑酯 - 10g Tube
+- 1 x 矽油 - 10g Tube
 - 1 x 鋁質蓋板具有 14 個穿線孔，1個 Bar30 壓力傳感器，1個水密通氣塞，與一條已安裝電線
 - 3 x T200 推進器裝有反時針方向螺槳 
 - 3 x T200 推進器裝有順時針方向螺槳 
@@ -363,7 +363,7 @@ Quantity      | Part                      | Usage
 
 <img src="/brov2/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
 	
-1. 將八個 O 型環塗上矽滑酯，準備待會使用。
+1. 將八個 O 型環塗上矽油，準備待會使用。
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:900px" />
 
@@ -387,7 +387,7 @@ Quantity      | Part                      | Usage
 要回裝鋁質端蓋板時，需要下列零件與工具：
 
 - 方才卸下的水密 O 型環, 6 支 M3x12 螺絲，L 型夾片
-- 1 x 矽滑酯 - 10g Tube
+- 1 x 矽油 - 10g Tube
 - 1 x 鋁質蓋板
 - 1 x 2.5 mm 六角扳手
 
@@ -395,7 +395,7 @@ Quantity      | Part                      | Usage
 
 2. 清潔 O 型環凸緣(4"系列)，並確認 O 型環溝槽無任何異物雜質附著。
 
-3. 在 O 型環上塗抹矽滑酯。
+3. 在 O 型環上塗抹矽油。
 
 4. 將 O 型環安裝至凸緣溝槽上。 
 
@@ -410,14 +410,14 @@ Quantity      | Part                      | Usage
 完成電池水密筒安裝需要下列零件與工具：
 
 - 1 x 袋內有1個紅色穿線塞螺帽與一條 O 型環
-- 1 x 矽滑酯 - 10g Tube
+- 1 x 矽油 - 10g Tube
 - 1 x 4個開孔的端蓋板(3"系列)
 - 1 x 穿線塞扳手
 - 1 x XT90 to 3.5 mm 子彈頭轉接線
 - 1 x 1.5 吋熱縮套管
 - 1 x 熱風槍, 吹風機或打火機
 
-1. 在 O 型環上塗抹矽滑酯。
+1. 在 O 型環上塗抹矽油。
 
 2. 安裝 O 型環到電力線穿線塞。
 	
@@ -479,7 +479,7 @@ Quantity      | Part                      | Usage
 
 繼續組裝 BlueROV2, 移除電子設備水密筒的壓克力筒身。
 
-## 安裝從穿線塞來的電力線
+## 安裝從穿線塞來的電源線
 
 安裝從穿線塞來的電力線，需要下列零件與工具：
 

@@ -4,13 +4,13 @@ title: Payload Skid Documentation
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: introduction
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
-- Usage: usage
-- Assembly and Installation: assembly-and-installation
+- 簡介: 簡介
+- 規格: 規格
+- - 規格表: 規格表
+- - 平面圖: 平面圖
+- - 3D模型: 3D模型
+- 使用說明: 使用說明
+- 組合安裝: 組合安裝
 
 store-links:
 - Payload Skid: https://www.bluerobotics.com/store/rov/brov-payload-skid/
@@ -21,98 +21,95 @@ manual-links:
 
 <img src="/payload-skid/cad/banner-style-1.png" class="img-responsive img-center" style="max-width:800px"  />
 
-# Introduction
+# 簡介
 
-The <em>Payload Skid</em> is a modular frame for the BlueROV2 with mounting points for additional watertight enclosures and lights. Using the Payload Skid, you can add additional large instruments and other equipment to your BlueROV2.
+ <em>Payload Skid(裝載平台)</em> 是一個供 BlueROV2 使用的模組化的框架，可加掛水密筒、照明燈或其他設備。
 
-# Specifications
+# 規格
 
-## Specification Table
+## 規格表
 
-|  **Physical**  |
+|  **尺寸重量**  |
 | ------------- | --------- |
-| Length | 475 mm | 18 in |
-| Width | 338 mm | 13.3 in |
-| Height | 197mm | 7.7in |
-| Weight (in air) | 1200g | 2.65lbs |
+| 長 | 475 mm | 18 in |
+| 寬 | 338 mm | 13.3 in |
+| 高 | 197mm | 7.7in |
+| 重量 (陸地上) | 1200g | 2.65lbs |
 |----------------------|
 
 
-## 2D Drawings
+## 平面圖
 
 <img src="/payload-skid/cad/payload-skid-2view.png" class="img-responsive img-center" style="max-width:800px" />
 
 <img src="/payload-skid/cad/rov-payload-dimensions.png" class="img-responsive img-center" style="max-width:800px" />
 
-## 3D Model
+## 3D模型
 
-All 3D models are provided in zip archives containing the follow file types:
+所有 3D 模型皆以壓縮檔方式提供，內有下列檔案格式：
 
 - SolidWorks Part (.sldprt)
 - IGES (.igs) 
 - STEP (.step)
 - STL (.stl)
 
-|		**Payload Skid**																						|
+|		**Payload Skid(擴充裝載平台)**																						|
 | --------------------------------------------------------------------------------------------- |
 | Payload Skid and Parts  | [BROV-PAYLOAD-SKID-R1.zip](cad/BROV-PAYLOAD-SKID-R1.zip) |
 
-# Usage
+# 使用說明
 
-Assemble according to the below steps, and the Payload Skid will allow you to mount two additional Lumens, twelve additional ballast weights, and three additional 3" watertight enclosures or one additional 4" watertight enclosure. Note that you may have to add more than a few ballast weights to get your BlueROV2 back to neutral buoyancy if your additional watertight enclosures are mostly empty! The chart below suggests the approximate number of additional 200g ballast weights you will need to add to to achieve this, they can be mounted in any combination on the BlueROV2 or Payload Skid as necessary. 
+下列的組態，可以讓 Payload Skid 裝載平台掛載兩個額外的照明燈，12個額外的壓載鉛塊，3 個額外的 3" 水密筒或 1 個 4" 水密筒。您可能會需要增加一些壓載鉛塊來讓 BlueROV2 保持中性浮力，特別是在水密筒內無設備時。下表列出大略需要的壓載鉛塊數量。
 
-|  **Suggested Additional Ballast Weights**  |
+|  **建議增加的壓載鉛塊(200g)數量**  |
 | ------------- | --------- |
-| 1 x 3" Enclosure (12") | 4-6 | 
-| 3 x 3" Enclosure (12") | 14-16 | 
-| 1 x 4" Enclosure (12") | 10-12 | 
+| 1 x 3" 水密筒 (12") | 4-6 | 
+| 3 x 3" 水密筒 (12") | 14-16 | 
+| 1 x 4" 水密筒 (12") | 10-12 | 
 |----------------------|
 
-Depending on the enclosure positions, you may also have to balance your BlueROV2 more towards being positively buoyant, rather than neutral. For example, three internally mounted 3" watertight enclosures will partially block the vertical thrusters when surfacing, thus some additional positive buoyancy will make up for this. Mounting the watertight enclosures on the outside sides of the Payload Skid or only mounting one central watertight enclosure will not alter ROV performance significantly.
+依據水密筒安裝的位置，也可能需要調整您的 BlueROV2 為略成正向浮力狀態，例如安裝了 3 支 3" 水密筒在裝載平台上時，會些許影響到垂直推進器的向下水流，調整為稍具正向浮力狀態將有助於保持平衡。只在中間安裝一支水密筒時則影響不大。
 
+# 組合安裝
 
-# Assembly and Installation
-
-## Step 1: Attaching the Side Panels
+## 步驟 1: 安裝側板
 
 <img src="/payload-skid/cad/payload-step-1.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Use four M5x16 screws to attach the side panels to the bottom panel. Be sure to place the bottom panel counter-bore side down, and align the panels with bottom, lumen mounting holes pointing forward.
+使用四根 M5x16 螺絲，將側邊板固定到底板上。確定底板螺絲頭埋入擴孔面朝下，側板照明燈固定孔朝前。
 
-## Step 2: Attaching the Standoffs
+## 步驟 2: 安裝拉力桿
 
 <img src="/payload-skid/cad/payload-step-2.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Screw the standoffs between the tops of the side panels with four M4x16 screws. Note that these standoffs may be removed once the Payload Skid is mounted to a BlueROV2, but it is recommended to keep them on at all times for structural stability.
+在側板上方使用四根 M4x16 螺絲將拉力桿固定兩片側板。這些拉力桿在裝載架固定到 BlueROV2 本體後是可移除的，不過建議持續裝設以維持較佳的結構強度。
 
-## Step 3: Attaching the Clips 
+## 步驟 3: 連接片固定 
 
 <img src="/payload-skid/cad/payload-step-3.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Place your BlueROV2 on top of the Payload Skid, and use the ROV side mounting holes as guides to attach the mounting clips in the proper orientation, using eight M5x16 screws.
+將 BlueROV2 放置到擴充裝載平台上，使用八支 M5x16 螺絲固定連接片，固定本體與擴充平台。
 
-## Step 4: Attaching the Watertight Enclosure Clamps
+## 步驟 4: 安裝水密筒夾
 
 <img src="/payload-skid/cad/payload-step-4.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Using four M4x14 screws, attach a 3" or 4" watertight enclosure clamp to top of the bottom panel. Using thread-locker is recommended.
+使用四支 M4x14 螺絲，將水密筒夾安裝置底板上，建議使用螺絲固定膠。
 
-## Step 5: Securing the Watertight Enclosure
+## 步驟 5: 固定水密筒
 
 <img src="/payload-skid/cad/payload-step-5.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Using four M3x12 screws, clamp your 3" or 4" watertight enclosure into place with the other clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Keep the enclosure approximately centered in the clamps. Using thread-locker is recommended. Repeat steps 4 and 5 if you are mounting additonal watertight enclosures to the side panels, note that you will only be able to mount three enclosures on the inside of the Payload Skid if they are all 3" models.
+使用四支 M3x12 螺絲與另一片筒夾，將水密筒安裝至平台上，記得保持水密筒在正中間位置，固定筒夾時，要兩邊平均施力鎖緊，同樣建議使用螺絲固定膠。若有其他的水密筒，重複步驟4與步驟5，固定水密筒到側板上，裝載平台內的空間可容納三支3"水密筒。
 
-## Step 6: Installing Additional Lights
+## 步驟 6: 安裝額外的照明燈
 
 <img src="/payload-skid/cad/payload-step-6.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Two additional Lumens can be mounted to the front of the payload skid using the provided mounting holes and two M3x12 screws.
+擴充裝載平台已預留一組照明燈安裝孔，使用兩支 M3x12 螺絲來安裝。
 
-## Step 7: Removing from the ROV
+## 步驟 7: 卸載擴充平台
 
 <img src="/payload-skid/cad/payload-skid-2.png" class="img-responsive img-center" style="max-width:600px"  />
 
-The Payload Skid can be separated from the BlueROV2 by removing the four ROV side M5x16 mounting clip screws, and lifting the BlueROV2 off the Payload Skid. The Payload Skid side mounting clip screws can be left in place.
-
-
+卸下固定片上的 4 支 M5x16 螺絲即可分離本體與擴充平台，可將固定片保留在擴充平台上，方便下次組裝。
