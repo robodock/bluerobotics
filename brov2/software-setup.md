@@ -6,7 +6,7 @@ order: 1
 topnavbar: brov2
 nav:
 - 軟體說明: 軟體說明
-- 安裝QGroundControl: 安裝-QGroundControl
+- 安裝QGroundControl: 安裝QGroundControl
 - 網路環境設定: 網路環境設定
 - 控制器設定: 控制器設定
 - 控制器-搖桿校正: 控制器-搖桿校正
@@ -112,7 +112,7 @@ function showBlacklistElements(os) {
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
-# 安裝 QGroundControl
+# 安裝QGroundControl
 
 QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 BlueROV2，可在此下載後進行安裝:
 
