@@ -35,18 +35,18 @@ nav:
 - - 初始真空測試: 初始真空測試
 - - 電源線穿線: 安裝從穿線塞來的電源線
 - - 安裝來自穿線塞的訊號線: 安裝來自穿線塞的訊號線
-- - Cable Routing: cable-routing
-- Final Assembly: final-assembly
-- - Desiccant: adding-desiccant-to-the-electronics-enclosure
-- - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
-- - Mounting Thrusters: mounting-the-thrusters-to-the-frame
-- - Mounting Lights: mounting-the-lights
-- - Mounting the Tether: mounting-the-tether-to-the-frame
-- - External Cable Management: thruster-and-lumen-cable-management
-- - Installing Fairings: installing-the-fairings-and-buoyancy
-- - Ballast: mounting-ballast-to-the-frame
-- Topside Setup: topside-setup
-- Next Steps: next-steps
+- - 線路整理: 線路整理
+- 最後組裝: 最後組裝
+- - 乾燥劑: 加入乾燥劑
+- - 安裝電子設備水密筒: 固定電子設備水密筒到機體
+- - 安裝推進器: 安裝推進器到機體
+- - 安裝照明燈: 安裝照明燈
+- - 固定連接線: 固定連接線至機體框架
+- - 纜線管理: 推進器與照明燈纜線管理
+- - 安裝整流罩: 安裝整流罩與浮力材
+- - 配重: 安裝配重鉛塊
+- 岸端裝備設置: 岸端裝備設置
+- 下一步: 下一步
 
 store-links:
 - BlueROV2: http://bluerobotics.com/store/rov/bluerov2/
@@ -521,137 +521,139 @@ Quantity      | Part                      | Usage
 
 	<img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
 
-If you received your BlueROV2 prior to March 14th, 2017 you will need to [install the SOS Leak sensor using the archived instructions.](/brov2/assembly-pre201703/#installing-the-sos-leak-sensor)
+如果您的 BlueROV2 是 2017年3月14前的版本，您需要參考[舊的安裝水密洩漏傳感器](/brov2/assembly-pre201703/#installing-the-sos-leak-sensor)
 
-## Cable Routing
+## 線路整理
 
-To route the cables in the Electronics Enclosure so that they will not snag on the Watertight Enclosure for ROV/AUV (4" Series) with Dome End Cap installed you will need the following parts and tools:
+整理電子設備水密筒內的線路，需要下列零件與工具：
 
-- 3 x 5 1/2" zip ties
-- 1 x Wire strippers or scissors
+- 3 x 5 1/2" 束線帶
+- 1 x 剝線鉗或剪刀
 
-1. On the starboard side (Pixhawk side) collect the Bar30 wires and the Lumen signal wire and zip tie them to the long hex standoff slightly forward of the Motor Terminal Block using one zip tie. Make sure that the locking head of the zip tie and the wires are oriented to the inside of the long hex standoff.
+1. 在設備架右側(Pixhawk側) 將 Bar30 壓力傳感器訊號線與照明燈訊號線用束線帶固定在長六角柱上，位置約在馬達接線端子前方，束線帶頭需在六角柱內側。
 
 	<img src="/brov2/cad/zip-tie-starboard-bw.png" class="img-responsive" style="max-width:900px" />
 
-2. On the port side (Fathom-X Tether Interface Board side) collect the Fathom Tether wires and zip tie them to the long hex standoff approximately even with the back of the Fathom-X Tether Interface Board and approximately even with the Motor Terminal Block. Make sure that the locking heads of the zip ties and the wires are oriented to the inside of the long hex standoff. 
+2. 在設備架左側(Fathom-X 介面板側) 將連接線整理好用束線帶固定在長六角柱上，位置約在Fathom-X 介面板與馬達接線端子上方，同時確定束線帶頭需在六角柱內側。
 
 	<img src="/brov2/cad/zip-tie-port-bw.png" class="img-responsive" style="max-width:900px" />
 
 
-# Final Assembly
+# 最後組裝
 
-## Adding Desiccant to the Electronics Enclosure
+## 加入乾燥劑
 
-If you ordered your BlueROV2 prior to February 14, 2018 you will need to order [Moisture Indicating Silica Gel Desiccant](https://bluerobotics.com/store/tools/desiccant-r1/) in order to complete this step. This step is optional, but it will improve the usability of the BlueROV2, especially if you are planning on operating your ROV in humid environments with cold water.
+如果您在2018年2月14前取得 BlueROV2, 可以在此訂購[指示型乾燥劑]
+(https://bluerobotics.com/store/tools/desiccant-r1/)。此為選擇性項目，但如果您會在高濕度、低水溫的環境操作 ROV，使用乾燥劑可避免起霧現象。
 
-The desiccant will absorb humidity that is inside of the Electronics Enclosure to prevent the dome from fogging up during dives. It will turn pink as it absorbs humidity.
+乾燥劑會吸收水密筒內的水氣，並轉成粉紅色。
 
-1. Fill one of the Desiccant Bags with Moisture Indicating Silica Gel Desiccant and close the draw string. Make sure that you close the lid of the Moisture indicating Silica Gel Desiccant after you have filled the bag. It will become saturated in about a day if left open to air. 
+1. 在一個乾燥劑袋裝填入指示型乾燥劑顆粒並拉緊袋口，乾燥劑如果暴露在空氣中，大約一天就會吸收水氣飽和。
 
 <img src="https://bluerobotics.com/wp-content/uploads/2016/12/bag-2-1.png" class="img-responsive" style="max-width:900px" />
 
-2. Install the desiccant bag near the Fathom-X Tether Interface. This step will have to be combined with installing the Watertight Enclosure (4" Series) over the Electronics Tray since the bag will be "floating" inside of the enclosure
+2. 將乾燥劑袋安裝在靠近 Fathom-X 介面板處
 
 [Pictures Coming Soon]
 
-## Mounting the Electronics Enclosure onto the Frame
+## 固定電子設備水密筒到機體
 
-To mount the Electronics Enclosure to the frame you need the following parts and tools:
+固定電子設備水密筒需要用到下列零件與工具：
 
-- 1 x Watertight Enclosure for ROV/AUV (4" Series) with Dome End Cap installed
-- 1 x Threadlocker
-- 1 x Bag with four M3x16 screws
-- 1 x 2.5 mm hex driver
+- 1 x 裝好球型罩與端蓋板的水密筒(4"系列)
+- 1 x 螺絲固定膠
+- 1 x 袋內有 4 支 M3x16 螺絲
+- 1 x 2.5 mm 六角扳手
 
-1. Apply silicone grease to the two radial O-rings on the O-Ring Flange (4" Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4" Series) with installed Dome End Cap to the O-Ring Flange (4" Series). 
+1. 在連接設備架的 O 型環凸緣上的兩道 radial O 型環塗抹矽滑酯，然後裝上水密壓克力筒。 
 
-2. Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-3. Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4" Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4" Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4" Series) easily. 
+2. 在4支 M3x16 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
 
+
+3. 使用 M3x16 螺絲，將電子設備水密筒安裝至機體上，球型罩保持在前方。安裝螺絲時，先不要上緊，方便所有螺絲就定位。
 	<img src="/brov2/cad/clip-installation.PNG" class="img-responsive" style="max-width:900px" />
 
-## Mounting the Thrusters to the Frame
+## 安裝推進器到機體
 
-If you ordered your BlueROV2 prior to September 13, 2017, see the [archived thruster mounting instructions here](/brov2/assembly-pre201703/#mounting-the-thrusters-to-the-frame). Once you have mounted the thrusters, please return to these instructions to continue with [mounting the lights](/brov2/assembly/#mounting-the-lights).
+如果您的 BlueROV2 是在 2017年9月13日前取得，請參考[舊的推進器安裝指示](/brov2/assembly-pre201703/#mounting-the-thrusters-to-the-frame). 完成後請繼續前往[安裝照明燈](/brov2/assembly/#mounting-the-lights).
 
-To mount the thrusters to the frame, you need the following parts and tools:
+安裝推進器到機體，需要下列零件與工具:
 
-- 1 x 2.5 mm hex driver
-- 3 x T200 Thruster with Clockwise Propeller installed
-- 3 x T200 Thruster with Counter-Clockwise Propeller installed
-- 1 x Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
-- 1 x Assembled ROV frame
+- 1 x 2.5 mm 六角扳手
+- 3 x T200 推進器裝有順時針方向螺槳
+- 3 x T200 推進器裝有反時針方向螺槳
+- 1 x 袋內有 16 支 M3x16 螺絲與 8 支 M3x12 螺絲
+- 1 x 組合好的 ROV 機體框架
 
-Note: If you received your BlueROV prior to March 14th, 2017 you will need to install the Counter-Clockwise Propellers. See [the archived instructions](/brov2/assembly-pre201703/#changing-the-propellers) for details.
+Note: 如果您是在 2017年3月14前取得 BlueROV2，您將需要安裝反時針方向螺槳，請看 [歷史資料](/brov2/assembly-pre201703/#changing-the-propellers).
 
-The horizontal thrusters have two mounting options. One is at a 45° angle to forward, and the other is at a 30° angle to forward. The thrusters mounted at 45° will give you equal thrust in all directions. Mounting the thrusters at 30° will give you 25% more forward thrust in exchange for 25% less thrust in strafing. To mount the thrusters at 45° use the holes shown in the picture below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
+水平推進器有兩種安裝選項。一種是 45° 向前，另一種是 30° 向前。45° 方式安裝可提供所有方向相同的推力，30° 的安裝方式則提供較多25%的向前推進力，但同時也減少了25%的橫向推進力。使用下圖中的螺絲孔位來安裝45°的推進組態。星號標記的螺絲孔位為最靠近推進器鼻錐的位置。
 
 <img src="/brov2/cad/45deg-thruster-mounting.png" class="img-responsive" style="max-width:900px" />
 
-To mount the thrusters at 30° use the holes shown in the pictures below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
+使用下圖的螺絲孔位來安裝30°的推進組態，星號標記的螺絲孔位為最靠近推進器鼻錐的位置。
 
 <img src="/brov2/cad/30deg-thruster-mounting.png" class="img-responsive" style="max-width:900px" />
 
-For the sake of clarity, the hole with the asterisk on the thruster shown below is the hole that is closest to the nose cone.
+請參考下圖，星號標記螺絲孔位與推進器螺絲孔位的對應位置。
 
 <img src="/brov2/cad/thruster-mounting.png" class="img-responsive" style="max-width:900px" />
 
-Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have counter-clockwise propellers and blue thrusters should have clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
+下方是推進器的編號對應位置與安裝方向，綠色標示推進器應使用反槳，藍色標示推進器則使用順槳。安裝時請依照順序安裝。
 
 <p align="center">
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
 </p>
 
-1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended. DO NOT use threadlocker unless you have threadlocker rated for use with polycarbonate
-	
-2. Install thrusters 5 and 6, using the M3x12 screws on the side panels. Tighten the screws so that they indent the frame slightly.
+1. 安裝推進器 1 與 2 至前中間板下方，使用 M3x16 螺絲。鎖緊螺絲直到略為縮進框架板，除非使用的是相容於聚碳酸酯(推進器外殼材質)的螺絲固定膠，否則不建議在此處使用螺絲膠。
 
-3. Install thrusters 3 and 4 underneath the rear center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly.
+2. 安裝推進器 5 與 6 至側邊板上，使用 M3x12 螺絲，同樣鎖緊螺絲直到略為縮進框架板。
 
-## Mounting the Lights
+3. 安裝推進器 3 與 4 至後中間板下方，使用 M3x16 螺絲。鎖緊螺絲直到略為縮進框架板。
 
-To install the Lumen mounts you will need the following parts and tools:
+## 安裝照明燈
 
-- 1 x Bag with the Lumen mounts, O-rings, and four M3x12 socket head cap screws 
-- 1 x 2.5 mm hex driver 
-- 1 x BlueROV2 frame
-- 1 x Threadlocker
+安裝照明燈時需要下列零件與工具：
 
-1. Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+- 1 x 袋內有照明燈固定片，O 型環與四支 M3x12 圓柱頭內六角螺絲
+- 1 x 2.5 mm 六角扳手 
+- 1 x BlueROV2 機體框架
+- 1 x 螺絲固定膠
 
-2. Install the mounts. Make sure not to overtighten the screw that goes into the slot. Only tighten it so that it slightly indents the frame. 
+1. 在每支 M3x12 圓柱頭內六角螺絲螺牙底端滴上一滴螺絲固定膠，用紙巾旋轉擦拭，讓固定膠分布均勻並移除多餘膠水。
+
+2. 安裝照明燈固定片，鎖緊至略為縮進框架板即可。
 
 	<img src="/brov2/cad/brov2-light-mounts.png" class="img-responsive" style="max-width:900px" />
 	
-3. Loop one of the size 133 O-rings from the bag that had the Lumen Mounts and screws around each Lumen Mount and Lumen as shown below.
+3. 使用 133尺寸的 O 型環，依照如下圖的方式繞過固定片與燈具本體來固定照明燈。
 
 <img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:900px" />	
 
-## Mounting the Tether to the Frame
+## 固定連接線至機體框架
 
-The tether needs to be firmly mounted to the frame to prevent the tether penetrator from being loosened through normal use. To do this, you will need the following parts and tools:
+連接線需要牢靠的固定至機體框架上，以防止連接線穿線塞受力鬆脫。使用下列零件與工具來達成：
 
-- 1 x Bag with thimble and 5 large zip ties
-- 1 x Fathom Tether 
-- 1 BlueROV2 frame
+- 1 x 袋內有線箍環與5條大號束線帶
+- 1 x Fathom 連接線 
+- 1 x BlueROV2 機體框架
 
-1. Loop the tether around the plastic thimble at a point about 12 inches (30 cm) away from the tether penetrator.
+1. 在距離穿線塞約 30 公分處將連接線繞過線箍環。
 	
-2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place agaisnt the thimble until it is secured.
+2. 牢固束緊 3 條束線帶，錯開束線帶頭位置，確保連接線牢牢的固定在線箍環上而不會鬆動。
 
 	<img src="/fathom/cad/tether-tutorial-a1.png" class="img-responsive" style="max-width:900px" />	
 	
-3. Attach the thimble to the rear panel as shown
+3. 如下圖方式，將線箍環固定至機體框架上。
 
 	<img src="/brov2/cad/brov2-thimble-to-frame.png" class="img-responsive" style="max-width:900px" />	
 	
-## Thruster and Lumen Cable Management
+## 推進器與照明燈纜線管理
 
-To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters. 
+理線作業需要約 30 條束線帶與剪刀/剪線鉗。 
 
-The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables. Below are some examples of what the cable routing should look like.
+理線的目的在於避免纜線碰觸螺槳，完成後請確認沒有任何纜線可以碰觸螺槳。底下是一些理線範例。
 
 <img src="/brov2/cad/brov2-cable-routing-port.png" class="img-responsive" style="max-width:900px" />
 
@@ -659,35 +661,35 @@ The primary goal of Thruster and Lumen cable management is to prevent the wires 
 
 <img src="/brov2/cad/brov2-cable-routing-back.png" class="img-responsive" style="max-width:900px" />
 
-## Installing the Fairings and Buoyancy
+## 安裝整流罩與浮力材
 
-The buoyancy comes preinstalled in the fairings, but make sure it is still in all of the fairings prior to installing the fairings. To install the fairings, you will need the following parts and tools:
+浮力材已預裝於整流罩內，安裝時請重複確認。安裝整流罩時需要下列零件與工具：
 
-- 4 x Fairings with buoyancy installed 
-- 1 x Bag with 16 self tapping screws 
-- 1 x \#1 Phillips head screwdriver 
+- 4 x 預裝好浮力材的整流罩 
+- 1 x 袋內有 16 支自攻螺絲 
+- 1 x \#1 十字起子 
 
-1. Remove the Lumens from their mount. You only need to remove the lower two Lumens from their mount if you have four.
+1. 先卸下下方照明燈，以便後續螺絲起子作業。
 
 	<img src="/brov2/cad/hanging-lumens.png" class="img-responsive" style="max-width:900px" />
 
-2. Install the screws through the center panels and into the fairings.
+2. 將螺絲穿過中間板安裝固定整流罩。
 	
 	<img src="/brov2/cad/fairing-install-cad.PNG" class="img-responsive" style="max-width:900px" />
 	
-3. Reinstall the Lumens.
+3. 重新安裝照明燈。
 
 	<img src="/brov2/cad/BlueROV2-front-angle.png" class="img-responsive" style="max-width:900px" />
 
-## Mounting Ballast to the Frame
+## 安裝配重鉛塊
 
-To mount the ballast to the frame you need the following parts and tools:
+安裝配重鉛塊需要下列零件與工具：
 
-- 7 x 200g ballast weights
-- 7 x 8-16 Thread, 5/8" Long, Thread-Forming Screw   
-- 1 x \#2 phillips head screwdriver
+- 7 x 200g 配重鉛塊
+- 7 x 8-16 螺紋, 5/8" 長, 螺紋成型自攻螺絲   
+- 1 x \#2 十字螺絲起子
 
-To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting ballast if you have a stock BlueROV2 with the [recommended battery.](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+為獲得最長的電池使用時間與良好的操作經驗，ROV 需要平衡重心並維持中心浮力。調整重心有時須靠嘗試-錯誤法。如果您用的是官方的[推薦電池](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)，哪麼下方圖片的配置方式可以提供一個良好的開始點。
 
 <b> <font size="4"> BlueROV2 with 2 <i> Lumen </i> Lights </font> </b> 
 <p align="center">
@@ -699,30 +701,29 @@ To get the longest battery life and the best driving experience, it is important
 <img src="/brov2/cad/ballast-4-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
 
-# Topside Setup 
+# 岸端裝備設置 
 
-To get your topside ready to connect to the BlueROV2 you will need the following parts and tools:
+準備岸端設備連接 BlueROV2 時，需要下列零件與工具：
 
-- 1 x Fathom-X Tether Interface Board
-- 1 x 2 mm flat head screw driver
-- 1 x Computer (Mac, Windows, Linux)
-- 1 x Ethernet cable 
-- 1 x USB to Ethernet adapter (if your computer does not have an Ethernet Port)
+- 1 x Fathom-X 連接線介面板
+- 1 x 2 mm 一字頭螺絲起子
+- 1 x 電腦 (Mac, Windows, Linux)
+- 1 x 乙太網路線 
+- 1 x USB 網路連接器(如果電腦沒有乙太網路埠)
 - 1 x Mini-USB cable
 
-1. Connect the Fathom Tether to the Fathom-X Tether Interface Board. 
+1. 連接 Fathom 連接線到 Fathom-X 連接介面板。 
 
-2. Connect the Ethernet port of the Fathom-X Tether Interface Board to you computer. If you do not have an Ethernet port on you computer connect the Ethernet port on the Fathom-X Tether Interface Board to a USB to Ethernet adapter then connect the adapter to your computer.
+2. 用網路線連接 Fathom-X Tether 介面板到電腦網路埠。如果您的電腦沒有網路連接埠，請使用 USB 網路連接器。
 
-3. Connect your Mini-USB the the Fathom-X Tether Interface Board and to a USB power supply that can supply at least 500 milliamps. Most computer USB ports can do this, but if the "Link" LED does not light up try using a USB charger.
+3. 透過 Mini-USB 端子供電給 Fathom-X 介面板，USB 電源至少須能提供 500mA，大部分電腦的 USB 埠皆可以達成。如果板上的 "Link" 指示燈無法亮起，請試著使用外部獨立 USB 電源。
 
 <img src="/brov2/cad/topside-wiring.png" class="img-responsive" style="max-height:500px" />
 
-# Next Steps
+# 下一步
 
-First, set up the software on your topside computer. Please see our [Software Setup](/brov2/software-setup/) page.
-
-Next, refer to the [Operating Manual](/brov2/operation/) to learn how complete your first dive.
+首先，在岸端電腦上安裝需要軟體。請參考[軟體設置](/brov2/software-setup/)頁面。
+接著請參考[操作手冊](/brov2/operation/)學習完成首次潛航。
 
 
 
