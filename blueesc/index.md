@@ -26,75 +26,76 @@ nav:
 - - Firmware Update and Customization: firmware-update-and-customization
 ---
 
-# Introduction
+# 簡介
 
-The BlueESC is an electronic speed controller for the T100 and T200 Thrusters. It's custom designed to mount directly to the thrusters and it is waterproof, water-cooled, and pressure-resistant.
+BlueESC 是 T100 與 T200 推進器使用的 ESC 電子調速器。它是量身打造，可直接安裝在推進器上，同時具有防水、水冷與抗壓的特性。
 
-## Safety 
+## 安全守則 
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> 在電氣環境中工作時，請隨時注意安全， 確認連頭連結穩固並維持水密。並將身體遠離轉動的馬達、螺槳部位。
 
-## Quick Start
+## 快速開始
 
-The BlueESC comes preinstalled on the T100 or T200 Thrusters, and you don't have to do much to get started. All you need is a power source like a 12V battery or power supply and a signal source, like a servo tester, RC radio receiver, or a microcontroller.
+BlueESC 以預裝在 T100 或 T200 推進器上，您要做的只有供電與連接訊號線至控制器。
 
-1. Connect the BlueESC to the power source by connecting the thick red and black wires to power and ground (negative).
-2. On the smaller signal cable, connect the black ground wire to the ground wire of the signal source. Connect the red or yellow PWM signal wire to the signal. The BlueESC does not have a battery eliminator circuit (BEC) and cannot power an external device at 5V.
-3. Provide a "stopped" signal at 1500 &mu;s for a few seconds to allow the ESC to initialize. It will beep and the lights will flash briefly.
-4. Once initialized, it's ready to run!
+1. 透過粗的紅、黑導線連接 BlueESC 到電力來源，紅線為電源(+)，黑線為接地(-)。
+2. 透過較細的訊號線，連接黑線至接地線，紅線或黃線為 PWM 訊號線。BlueESC 沒有 BEC 電路因此無法額外提供5V電源給其他設備。
+3. 提供一個 1500 &mu;s 的停止訊號數秒鐘，來啟始 ESC，ESC 會短暫發出聲音同時閃爍燈光。
 
-# Specifications
+4. 起始過後即可待機備便!
 
-## Diagram
+# 規格
+
+## 接線圖
 
 <img src="/assets/images/documentation/blue-esc-labels.png" class="img-responsive" style="max-width:800px" />
 
-## Specification Table
+## 規格表
 
-|                       **Electrical**                        |
+|                       **電力**                        |
 | --------------------------- | ------------- | ------------- |
-| Voltage                     | 6-22 volts                    |
-| Max Current (in water)      | 35 amps                       |
-| Max Current (in air)        | 25 amps                       |
+| 電壓                 | 6-22 volts                    |
+| 最大電流 (水中)      | 35 amps                       |
+| 最大電流 (空氣中)    | 25 amps                       |
 | --------------------------- | ------------- | ------------- |
-|                       **Physical**                          |
+|                       **實體**                          |
 | --------------------------- | ------------- | ------------- |
-| Length of Enclosure         | 18 mm         | 0.71 in       |
-| Diameter of Enclosure       | 40.4 mm       | 1.59 in       |
-| Cable Length                | 1 m           | 39 in         |
-| Power Cable Diameter        | 6.3 mm        | 0.25 in       |
-| Signal Cable Diameter       | 3.8 mm        | 0.15 in       |
-| Power Cable Colors          | Red - Positive                |
-|                             | Black - Negative (Ground)     |
-| Signal Cable Colors         | Black - Ground                |
-|                             | Red or Yellow - PWM Signal    |
-|                             | White - I<sup>2</sup>C Data (SDA) |
-|                             | Green - I<sup>2</sup>C Clock (SCL) |
+| 外殼長度         | 18 mm         | 0.71 in       |
+| 外殼直徑       | 40.4 mm       | 1.59 in       |
+| 纜線長度             | 1 m           | 39 in         |
+| 電源線直徑           | 6.3 mm        | 0.25 in       |
+| 訊號線直徑           | 3.8 mm        | 0.15 in       |
+| 電源線顏色                  | 紅 - 正                |
+|                             | 黑 - 負 (接地)         |
+| 訊號線顏色                  | 黑 - 接地              |
+|                             | 紅 或 黃 - PWM 訊號    |
+|                             | 白 - I<sup>2</sup>C 資料 (SDA) |
+|                             | 綠 - I<sup>2</sup>C 時脈 (SCL) |
 | --------------------------- | ------------- | ------------- |
-|                    **Pulse Width Signal**                   |
+|                    **脈波寬度訊號**                   |
 | --------------------------- | ------------- | ------------- |
-| Signal Voltage              | 3.3-5 volts                   |
-| Update Rate                 | 50-400 Hz                     |
-| Stopped                     | 1500 microseconds             |
-| Max forward                 | 1900 microseconds             |
-| Max reverse                 | 1100 microseconds             |
-| Signal Deadband             | +/- 25 microseconds (centered around 1500 microseconds) |
+| 訊號電壓              | 3.3-5 volts                   |
+| 更新率                 | 50-400 Hz                     |
+| 停止                     | 1500 microseconds             |
+| 最大向前                 | 1900 microseconds             |
+| 最大向後                 | 1100 microseconds             |
+| 訊號靜區(不工作區)       | +/- 25 microseconds (以 1500 microseconds 為中心) |
 | --------------------------- | ------------- | ------------- |
 |                   **I<sup>2</sup>C Signal**                 |
 | --------------------------- | ------------- | ------------- |
-| Signal Voltage              | 5 volts                       |
-| I<sup>2</sup>C Address      | 0x29 (default) - 0x38         |
+| 訊號電壓              | 5 volts                       |
+| I<sup>2</sup>C 位址   | 0x29 (default) - 0x38         |
 | --------------------------- | ------------- | ------------- |
-|                    **Performance**                   |
+|                    **性能**                   |
 | --------------------------- | ------------- | ------------- |
-| Maximum Depth               | To be determined; Designed for 500m+|
+| 最大深度               | 待測定; 設計為 500m+|
 
-## 3D Model
+## 3D模型
 
 Coming soon.
 
 <!--
-| File Type                  | Link                          |
+| 檔案格式                   | 連結                          |
 | -------------------------- | ----------------------------- |
 | SolidWorks Part (.sldprt)  | [BLUESC-R1.sldprt](#) |
 | STEP (.step)               | [BLUESC-R1.step](#)   |
@@ -103,56 +104,57 @@ Coming soon.
 | All in a zip file (.zip)   | [BLUESC-R1.zip](#) |
 -->
 
-# Operation
+# 操作
 
-## LED Indicator Lights
+## LED指示燈
 
-The BlueESC includes two indicator lights that show the status of the ESC. The behavior of these LEDs is consistent with the default behavior in the *tgy* firmware. Please see the [README for *tgy* for a detailed description of LED indicator light behavior](https://github.com/sim-/tgy/blob/master/README.md#troubleshooting).
+BlueESC 有兩個指示燈顯示 ESC 的狀態。這些 LEDs 的燈號與 tgy 韌體的預設行為相同。詳細請查看
+[README for *tgy*](https://github.com/sim-/tgy/blob/master/README.md#troubleshooting).
 
-# I<sup>2</sup>C Protocol
+# I<sup>2</sup>C 協定
 
-The I<sup>2</sup>C communication protocol allows two-directional communication with the ESC. The protocol uses a "register map" allowing registers to be written to and read from.
+I<sup>2</sup>C 通訊協定允許與 ESC 雙向通訊。協定使用一種 "register map" 的方式來溝通。
 
-## Throttle Command
+## 油門指令
 
-### Description
+### 敘述
 
-The throttle command is a 16-bit signed integer. The sign of the value determines the direction of rotation. Note, you must send a value of "0" at startup to initialize the thruster.
+油門指令是一個 16 位元有號整數。正負號代表不同旋轉方向。記得初始化時需送出 "0"。
 
 ### Registers: (0x00-0x01)
 
-* **throttle:** (write-only)
-	* -32767 (max reverse) to 32767 (max forward)
-	* 0 is stopped
-	* No deadband
+* **油門:** (僅能寫入)
+	* -32767 (最大反轉) to 32767 (最大向前)
+	* 0 為停止
+	* 無靜區(不工作區)
 
 ### Bytes
 
 * **Byte 0:** throttle_h  
 * **Byte 1:** throttle_l
 
-## Data Request
+## 資料請求
 
-### Description
+### 敘述
 
-The data registers can be read to provide information on voltage, current, RPM, and temperature. All values are 16-bit unsigned integers.
+資料 registers 可以讀取提供電壓、電流、轉速與溫度。所有數值為 16位元 無號整數。
 
 ### Registers: (0x02-0x0A)
 
-* **pulse_count:** (read-only)
-  * Commutation pulses since last request.
-  * Calculate rpm with pulse_count/dt*60/motor_pole_count
-* **voltage:** (read-only)
-	* ADC measurement scaled to 16 bits
-  * Calculate voltage with voltage/2016
-* **temperature:** (read-only)
-	* ADC measurement scaled to 16 bits
-  * Calculate temperature with the Steinhart equation
-* **current:** (read-only)
-	* ADC measurement scaled to 16 bits
-  * Calculate current with (current-32767)/891
-* **identifier:** (read-only)
-	* Identifier bit to test if ESC is alive
+* **pulse_count:** (唯讀)
+  * 計算自從上次請求後的脈波數。
+  * 計算 rpm 轉數 with pulse_count/dt*60/motor_pole_count
+* **voltage:** (唯讀)
+	* 類比數位轉換器測量值16位元轉換
+  * 計算電壓 with voltage/2016
+* **temperature:** (唯讀)
+	* 類比數位轉換器測量值16位元轉換
+  * 計算溫度 with the Steinhart equation
+* **current:** (唯讀)
+	* 類比數位轉換器測量值16位元轉換
+  * 計算電流 with (current-32767)/891
+* **identifier:** (唯讀)
+	* ESC作動中測試驗證位元
 
 ### Bytes
 
@@ -166,13 +168,13 @@ The data registers can be read to provide information on voltage, current, RPM, 
 * **Byte 7:** current_l  
 * **Byte 8:** 0xab (identifier to check if ESC is alive)
 
-## Data Conversion
+## 資料轉換
 
-The values sent through I2C for the sensors must be converted to the correct units. The following equations describe how to do so.
+透過 I2C 傳送的傳感器資料必須轉換成正確的單位。底下的方程式敘述如何處理。
 
-### Voltage
+### 電壓
 
-The voltage divider uses and 18K and 3.3K resistor for a voltage divider ratio of 6.45. The raw measurement is scaled to 16 bits. The conversion is as follows:
+電壓分配器使用 18K 與 3.3K 電阻形成 6.45 的分配率。並轉換成 16 位元。公式如下：
 
 $$
 \begin{align*}
@@ -180,7 +182,7 @@ V_{ESC} = 0.0004921 V_{raw}
 \end{align*}
 $$
 
-A code example follows:
+程式碼範例：
 
 ~~~ cpp
 float voltage() {
@@ -188,9 +190,9 @@ float voltage() {
 }
 ~~~
 
-### Current
+### 電流
 
-The current is measured by the ACS711, a hall-effect sensor IC. The output is 14.706 A/V with a 2.5V offset. The raw measurements is scaled to 16 bits.
+電流使用 ACS711 霍爾效應傳感器IC測量，輸出 14.706 A/V 可有 2.5V 的偏差值，並轉換成 16 位元。
 
 $$
 \begin{align*}
@@ -198,7 +200,7 @@ I_{ESC} = 0.001122 (I_{raw}-32767)
 \end{align*}
 $$
 
-A code example follows:
+程式碼範例：
 
 ~~~ cpp
 float current() {
@@ -206,9 +208,9 @@ float current() {
 }
 ~~~
 
-### Temperature
+### 溫度
 
-The temperature is measured by a 10K thermistor (NCP18XH103J03RB) and 3.3K resistor. The temperature is calculated with the Steinhart-Hart equations. 
+溫度使用一個 10K 熱敏電阻(NCP18XH103J03RB) 與 3.3K 電阻。溫度使用 Steinhart-Hart 公式計算。
 
 $$
 \begin{align*}
@@ -217,7 +219,7 @@ $$
 $$
 
 
-A code example follows:
+程式碼範例：
 
 ~~~ cpp
 // THERMISTOR SPECIFICATIONS
@@ -248,7 +250,7 @@ float temperature(_temp_raw) {
 
 ### RPM
 
-The RPM is sent as *pulses since last read*, which is the number of commutation cycles since the last time the I2C was polled.
+RPM 轉數是以 *自從上次讀取後的脈波數* 來傳送。
 
 $$
 \begin{align*}
@@ -262,9 +264,9 @@ RPM_{ESC} = 60 RPS_{ESC}
 \end{align*}
 $$
 
-The value of $$N_{poles}$$ depends on the motor. The T100 has 12 poles and the T200 has 14 poles. The RPM measurement *does not include direction*. You can include direction by adding a negative symbol if the input signal to the ESC is negative.
+$$N_{poles}$$ 極數依馬達而定。T100 為 12 極 而 T200 為 14 極。RPM 測量值 *不包含方向*。您可以透過加入負號來表示反方向。
 
-A code example follows:
+程式碼範例：
 
 ~~~cpp
 float rpm() {  
@@ -273,23 +275,23 @@ float rpm() {
 }
 ~~~
 
-## Assigning I<sup>2</sup>C Addresses
+## 指定 I<sup>2</sup>C 位址
 
-When using more than one ESC, it is necessary to assign unique addresses to each ESC. To assign a new address to the ESC, you will have to update the firmware on the ESC.
+當使用超過一個 ESC，需要對每一顆 ESC 指定唯一的位址。對 ESC 指派新位址時，必須更新 ESC 的韌體。
 
-**Tools Needed:**
+**需要工具:**
 
-* Arduino board with [ArduinoUSBLinker](https://github.com/bluerobotics/ArduinoUSBLinker) code uploaded
+* 已上傳[ArduinoUSBLinker](https://github.com/bluerobotics/ArduinoUSBLinker) 程式碼的 Arduino 控制板。
 
-1. First, make sure that the [ArduinoUSBLinker](https://github.com/bluerobotics/ArduinoUSBLinker) code is uploaded on your Arduino. You can do this through the Arduino IDE.
+1. 首先，確認[ArduinoUSBLinker](https://github.com/bluerobotics/ArduinoUSBLinker) 程式碼已上傳至您的 Arduino 控制板上。可透過 Arduino IDE 來確認。
 
-2. Connect the BlueESC signal cable's black ground wire to one of the "GND" pins on the Arduino. Connect the red or yellow PWM signal wire to Arduino pin 2.
+2. 連接 BlueESC 訊號線的黑色接地線到 Arduino 板上的 "GND" 腳位上。連接紅色或黃色的 PWM 訊號線到 Arduino pin 2。
 
-3. Power the BlueESC with a battery or power supply.
+3. 使用電池或電源供應器對 BlueESC 供電。
 
-4. Download the [latest BlueESC firmware zip file here](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip). Extract to a convenient location. 
+4. 下載[最新的 BlueESC firmware zip file](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip). 解開到合適的位置。 
 
-5. There are several ways to upload the firmware to the BlueESC. The first is using [avrdude](http://www.ladyada.net/learn/avr/setup-win.html) from the command line:
+5. 有數種上傳韌體到 BlueESC 的方式。第一種使用[avrdude](http://www.ladyada.net/learn/avr/setup-win.html) 指令列模式:
 
 ~~~~~~~~~~ bash
 # Navigate to the location containing the BlueESC firmware files
@@ -298,13 +300,13 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 avrdude -c stk500v2 -b 19200 -P [programmer port] -p m8 -U flash:w:blueesc_idXX.hex:i
 ~~~~~~~~~~~~~~~
 
-The second method is using a graphical utility such as [KKMulticopterTool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool). Both the 32 and 64 bit versions will work.
+第二種方式使用圖形介面程式[KKMulticopterTool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool). 32 與 64 位元版本都可運作。
 
-* Set the programmer to *ArduinoUSBLinker*
-* Select the port with your Arduino.
-* Set the controller to *atmega 8-based brushless ESC (8kB flash)* 
-* Under "Flashing", click on the "File" tab and browse to the firmware file you wish to flash.
-* Click the green button to flash your BlueESC.
+* 設定程式器為 *ArduinoUSBLinker*
+* 選擇 Arduino 連接埠。
+* 設定控制器為 *atmega 8-based brushless ESC (8kB flash)* 
+* 在 "Flashing" 選單，點擊 "File" 選取希望更新的韌體檔案。
+* 點擊綠色鈕開始更新 BlueESC。
 
 <img src="/assets/images/documentation/KKshot1a.png" class="img-responsive" style="max-width:600px" />
 

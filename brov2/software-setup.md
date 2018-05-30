@@ -9,9 +9,9 @@ nav:
 - 安裝QGroundControl: 安裝QGroundControl
 - 網路環境設定: 網路環境設定
 - 控制器設定: 控制器設定
-- 控制器-搖桿校正: 控制器-搖桿校正
+- 控制器搖桿校正: 控制器搖桿校正
 - 按鍵設定: 按鍵設定
-- 感測器校正: 感測器校正
+- 傳感器校正: 傳感器校正
 - 設定推進器方向: 設定推進器方向
 - 電壓與電流量測設定: 電壓與電流量測設定
 - 水密洩漏偵測警報設定: 水密洩漏偵測警報設定
@@ -41,16 +41,16 @@ $(document).ready(function(){
 	$('#linuxDiv').collapse({toggle: false});
 	
 	// We don't show these sidebar-nav items until the user selects an OS
-	var blacklist = ['Install QGroundControl',
-	'Network Setup',
-	'Joystick Setup',
-	'Joystick Calibration',
-	'Button Setup',
-	'Sensor Calibration',
-	'Configure Motor Directions',
-	'Voltage and Current Measurement Setup',
-	'SOS Leak Sensor Setup',
-	'To The First Dive!']
+	var blacklist = ['安裝QGroundControl',
+	'網路環境設定',
+	'控制器設定',
+	'控制器搖桿校正',
+	'按鍵設定',
+	'傳感器校正',
+	'設定推進器方向',
+	'電壓與電流量測設定',
+	'水密洩漏偵測警報設定',
+	'首航測試!']
 	
 	var sidebar = document.getElementById('sidebar');
 	var children = sidebar.getElementsByTagName("a");
@@ -168,7 +168,7 @@ QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 B
 
 <div id="macDiv" class="collapse" markdown="1">
 
-# 安裝 QGroundControl
+# 安裝QGroundControl
 
 QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 BlueROV2，Mac 版可在此下載後進行安裝:
 
@@ -214,7 +214,7 @@ QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 B
 
 <div id="linuxDiv" class="collapse" markdown="1">
 
-# 安裝 QGroundControl
+# 安裝QGroundControl
 
 QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 BlueROV2，Linux 版可在此下載後進行安裝:
 
@@ -258,7 +258,7 @@ QGroundControl 是您的地面站控制軟體，可用來連接您的電腦到 B
 </div>
 <div id="commonDiv" class="collapse" markdown="1">
 
-# 控制器-搖桿校正
+# 控制器搖桿校正
 
 某些控制器/搖桿可能需要校正後才能使用. 如果 QGroundControl 軟體的 *Vehicle Settings* 頁面上的 *Joystick* 頁面呈現紅色，表示控制器/搖桿需要校正，請依照下列步驟進行校正，如果不需校正，則可省略下列步驟!
 
@@ -280,7 +280,7 @@ BlueROV2 的控制器按鍵預設對應如下圖：
 
 這些按鍵可以在 *Vehicle Settings* 頁面上的 *Joystick* 頁面中進行設定.
 
-# 感測器校正
+# 傳感器校正
 
 1. 前往 QGroundControl 的 *Vehicle Settings* 頁面，從左方滑動選項頁面中選擇紅色 _Sensors_ 頁面.
 2. 在 *Autopilot Orientation* 選項中選擇 `Roll90`.
