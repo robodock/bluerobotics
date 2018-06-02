@@ -4,17 +4,17 @@ title: Blue Robotics Video Library
 permalink: /videos/
 order: 0
 nav:
-- Thrusters: thrusters
-- Motors: motors
-- Watertight Enclosures: watertight-enclosures
+- 推進器: 推進器
+- 馬達: 馬達
+- 水密容器: 水密容器
 ---
 
-# Thrusters
+# 推進器
 
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pFAnEkb0Qtg" frameborder="0" allowfullscreen></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hH5Avzb7ZEk" frameborder="0" allowfullscreen></iframe>
 		</div>
 
 	</div>
@@ -22,7 +22,7 @@ nav:
 
 	<div class="col-sm-6 col-md-6"> 
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jNYPrN3rj5k" frameborder="0" allowfullscreen></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xAf1R3UM_MU" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 
@@ -36,7 +36,7 @@ nav:
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFCIiMTceRs" frameborder="0" allowfullscreen></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t45_NHw_LIs" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 
@@ -47,12 +47,12 @@ nav:
 <br />
 
 
-# Motors
+# 馬達
 
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UCFR6N9lcJ4" frameborder="0" allowfullscreen></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Llds8TISgs4" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 	</div>
@@ -60,18 +60,18 @@ nav:
 
 <br /> 
 
-# Watertight Enclosures
+# 水密容器
 
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G6PqEsKjxHM" frameborder="0" allowfullscreen></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pPbT2qvz56E" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 	</div>
 	<div class="col-sm-6 col-md-6"> 
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9KHltdk5Ts0" frameborder="0" allowfullscreen></iframe>
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h7yGHuQnlbs" frameborder="0" allowfullscreen></iframe>
 
 		</div>
 
