@@ -389,7 +389,7 @@ The assembly process is simple and straightforward - it will take a few minutes!
 
 ## Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/G6PqEsKjxHM" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/pPbT2qvz56E" frameborder="0" allowfullscreen></iframe>
 <br />
 
 ## Steps

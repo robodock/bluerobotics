@@ -78,7 +78,7 @@ This tutorial should help make the Cable Penetrator Installation simple!
 
 ## Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/9KHltdk5Ts0?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/h7yGHuQnlbs" frameborder="0" allowfullscreen></iframe>
 <br />
 
 ## Step 1: Stripping the Jacket

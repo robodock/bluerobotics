@@ -128,7 +128,7 @@ The M100 Motor is easy to install in many different applications. It was designe
 
 ## Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/UCFR6N9lcJ4?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/Llds8TISgs4" frameborder="0" allowfullscreen></iframe>
 <br />
 
 ## Electrical Connections

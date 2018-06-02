@@ -101,7 +101,7 @@ Like all ESCs, the Basic ESC can generate a significant amount of heat when oper
 
 ## Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/pFAnEkb0Qtg?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/hH5Avzb7ZEk" frameborder="0" allowfullscreen></iframe>
 <br />
 
 # Example Code

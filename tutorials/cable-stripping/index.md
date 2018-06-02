@@ -29,7 +29,7 @@ Blue Robotics' thrusters and BlueESC come with tough urethane jacketed cable for
 
 # Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/jNYPrN3rj5k" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/xAf1R3UM_MU" frameborder="0" allowfullscreen></iframe>
 <br />
 
 # Instructions

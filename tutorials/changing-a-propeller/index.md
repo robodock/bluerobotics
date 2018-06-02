@@ -23,7 +23,7 @@ Changing the propeller is easy and should only take a minute.
 
 # Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/xFCIiMTceRs" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/t45_NHw_LIs" frameborder="0" allowfullscreen></iframe>
 <br />
 
 # Instructions
