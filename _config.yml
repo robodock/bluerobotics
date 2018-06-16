@@ -1,13 +1,13 @@
 # Site settings
-title: BlueRobotics Product Documentation Chinese Localization Site
-email: info@robodock.net
+title: BlueRobotics Product Documentation Site
+email: info@bluerobotics.com
 description: > # this means to ignore newlines until "baseurl:"
-  The documentation site has instructions, tutorials, and guides for
+  The BlueRobotics documentation site has instructions, tutorials, and guides for
   using BlueRobotics' products. You can contribute through Github!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bluerov.robodock.net"
-twitter_username: robodock
-github_username:  robodock
+url: "http://docs.bluerobotics.com"
+twitter_username: bluerobotics
+github_username:  bluerobotics
 
 # Build settings
 markdown: kramdown
