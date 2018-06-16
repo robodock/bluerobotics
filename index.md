@@ -23,8 +23,6 @@ nav:
 
 我們盡力將文件做到完善，也歡迎您[新增、勘誤或提出建議](#如何協助)共同來協助改善文件。
 
-本文件中文化由 RoboDock 維護，文件庫網址 [http://bluerov.robodock.net](http://bluerov.robodock.net)
-
 您可以使用頁面最上方的功能表來尋找分類，並用左方的選單來找到文件中的章節段落。
 
 # 產品使用手冊
@@ -267,15 +265,14 @@ nav:
 
 # 如何協助
 
-Want to help us improve our documentation? There are several way to help out.
 想要幫助我們改善文件?可以利用下列幾種方法。
 
 本文件站台架設於 Github.com 做為版本管控，連結如下：
-[github.com/robodock/bluerov](http://github.com/robodock/bluerov)
+[github.com/robodock/bluerobotics](http://github.com/robodock/bluerobotics)
 
 * **Issues.** 您可以透過 Github 頁面上的工具提交內容勘誤。
 
-* **Contribution.** 如果您想撰寫長篇的教學文件，最好的方式是自行 [fork](https://github.com/robodock/bluerov) 一份, 在自己的儲存庫版本上撰寫編輯，完成後在提出 [pull](https://github.com/robodock/bluerov/pulls) 請求，我們會盡快將內容加入主文件中。
+* **Contribution.** 如果您想撰寫長篇的教學文件，最好的方式是自行 [fork](https://github.com/robodock/bluerobotics) 一份, 在自己的儲存庫版本上撰寫編輯，完成後在提出 [pull](https://github.com/robodock/bluerobotics/pulls) 請求，我們會盡快將內容加入主文件中。
 
 [文件頁面範本](/example/) 展現哪些 Markdown 語法是可接受的。
 
